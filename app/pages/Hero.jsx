@@ -1,3 +1,4 @@
+import ServicesWeOffer from "../components/ServicesWeOffer";
 import WhyChooseUs from "../components/WhyChooseUs";
 
 export default function Hero() {
@@ -16,7 +17,7 @@ export default function Hero() {
         <img
           src="/assets/heroHands.png"
           alt="Handshake"
-          className="mx-auto w-44 sm:w-56 md:w-84 mb-4 drop-shadow-2xl"
+          className="mx-auto w-44 sm:w-56 md:w-84 mb-2 drop-shadow-2xl"
           draggable={false}
         />
         <button
@@ -26,6 +27,7 @@ export default function Hero() {
         </button>
       </div>
     </section>
+    <ServicesWeOffer/>
     <WhyChooseUs/>
     </>
     
