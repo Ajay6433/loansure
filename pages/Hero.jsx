@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <section
-      className="w-full min-h-screen bg-[#000116] flex flex-col items-center justify-center text-center mt-21"
+      className="w-full min-h-screen bg-[#000116] flex flex-col items-center justify-center text-center"
     >
       <div>
         <h1 className="font-roboto-slab text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-6 drop-shadow">

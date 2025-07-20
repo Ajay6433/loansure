@@ -1,7 +1,7 @@
 // components/ServicesWeOffer.tsx
-import { FaHandHoldingUsd, FaCreditCard, FaFileInvoice, FaPaypal } from "react-icons/fa";
+import { FaCreditCard, FaFileInvoice, FaPaypal } from "react-icons/fa";
 import Link from "next/link";
-import Image from "next/image";
+// Removed Next.js Image to allow remote/public images without domain config
 
 const services = [
   {
@@ -47,7 +47,7 @@ export default function ServicesWeOffer() {
             <div className="flex justify-between items-start mb-6">
               <span className="text-xl font-bold text-gray-900">{service.title}</span>
               {typeof service.icon === 'string' ? (
-                <Image src={service.icon} alt={service.title} width={56} height={56} />
+                <img src={service.icon} alt={service.title} className="w-14 h-14 object-contain" />
               ) : (
                 service.icon
               )}

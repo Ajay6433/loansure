@@ -1,0 +1,214 @@
+{
+  "services": {
+    "loans": {
+      "title": "Loans",
+      "slug": "loans",
+      "description": "Know your options — not all loans are created equal.",
+      "icon": "/assets/loan.png",
+      "categories": [
+        {
+          "name": "Secured Personal Loan",
+          "slug": "secured-personal-loan",
+          "description": "Secure your future with collateral-backed personal loans",
+          "icon": "/assets/secured-loan.png",
+          "loans": [
+            {
+              "title": "Gold Loan",
+              "slug": "gold-loan",
+              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
+              "icon": "/assets/gold-loan.png",
+              "features": [
+                "Quick disbursement",
+                "Low interest rates",
+                "Flexible repayment",
+                "Gold security"
+              ],
+              "minAmount": 10000,
+              "maxAmount": 500000,
+              "interestRate": "7.5% - 12%",
+              "tenure": "12-36 months"
+            },
+            {
+              "title": "Loan Against Property",
+              "slug": "loan-against-property",
+              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
+              "icon": "/assets/property-loan.png",
+              "features": [
+                "High loan amounts",
+                "Long tenure options",
+                "Property as collateral",
+                "Competitive rates"
+              ],
+              "minAmount": 500000,
+              "maxAmount": 5000000,
+              "interestRate": "8.5% - 11%",
+              "tenure": "5-20 years"
+            },
+            {
+              "title": "Loan Against Security",
+              "slug": "loan-against-security",
+              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
+              "icon": "/assets/security-loan.png",
+              "features": [
+                "Securities as collateral",
+                "Quick processing",
+                "Flexible terms",
+                "Market-linked rates"
+              ],
+              "minAmount": 25000,
+              "maxAmount": 1000000,
+              "interestRate": "9% - 13%",
+              "tenure": "12-60 months"
+            },
+            {
+              "title": "Loan Against Fixed Deposit",
+              "slug": "loan-against-fixed-deposit",
+              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
+              "icon": "/assets/fd-loan.png",
+              "features": [
+                "FD as collateral",
+                "Lower interest rates",
+                "No prepayment charges",
+                "Continue earning on FD"
+              ],
+              "minAmount": 10000,
+              "maxAmount": 1000000,
+              "interestRate": "FD rate + 1-2%",
+              "tenure": "Up to FD maturity"
+            },
+            {
+              "title": "Loan Against Insurance Policy",
+              "slug": "loan-against-insurance-policy",
+              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
+              "icon": "/assets/insurance-loan.png",
+              "features": [
+                "Policy as collateral",
+                "No credit check",
+                "Quick approval",
+                "Policy continues"
+              ],
+              "minAmount": 5000,
+              "maxAmount": 500000,
+              "interestRate": "10% - 15%",
+              "tenure": "12-60 months"
+            }
+          ]
+        },
+        {
+          "name": "Unsecured Personal Loan",
+          "slug": "unsecured-personal-loan",
+          "description": "Quick personal loans without collateral requirements",
+          "icon": "/assets/unsecured-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Educational Loan",
+          "slug": "educational-loan",
+          "description": "Finance your education with flexible repayment options",
+          "icon": "/assets/education-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Secured Business Loan",
+          "slug": "secured-business-loan",
+          "description": "Grow your business with collateral-backed financing",
+          "icon": "/assets/business-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Unsecured Business Loan",
+          "slug": "unsecured-business-loan",
+          "description": "Quick business financing without collateral",
+          "icon": "/assets/unsecured-business.png",
+          "loans": []
+        },
+        {
+          "name": "Home Loan",
+          "slug": "home-loan",
+          "description": "Realize your dream of owning a home",
+          "icon": "/assets/home-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Vehicle Loan",
+          "slug": "vehicle-loan",
+          "description": "Drive your dreams with easy vehicle financing",
+          "icon": "/assets/vehicle-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Professional Loan",
+          "slug": "professional-loan",
+          "description": "Specialized loans for professionals",
+          "icon": "/assets/professional-loan.png",
+          "loans": []
+        },
+        {
+          "name": "Trade & Credit-Linked Loan",
+          "slug": "trade-credit-linked-loan",
+          "description": "Trade financing and credit-linked solutions",
+          "icon": "/assets/trade-loan.png",
+          "loans": []
+        }
+      ]
+    },
+    "cards": {
+      "title": "Cards",
+      "slug": "cards",
+      "description": "Swipe smarter — compare, choose, and control your finances.",
+      "icon": "/assets/cards.png",
+      "categories": []
+    },
+    "insurance": {
+      "title": "Insurance",
+      "slug": "insurance",
+      "description": "So many insurances, only one that fits you — we help you find it.",
+      "icon": "/assets/insurance.png",
+      "categories": []
+    },
+    "payments": {
+      "title": "Payments",
+      "slug": "payments",
+      "description": "Your payments deserve more than just a route — they deserve the right one.",
+      "icon": "/assets/payment.png",
+      "categories": []
+    }
+  },
+  "company": {
+    "name": "LoanSure CardsPe",
+    "logo": "/assets/Logo.png",
+    "contact": {
+      "phone": "8899003355",
+      "email": "CardsPe@gmail.com"
+    },
+    "social": {
+      "linkedin": "#",
+      "twitter": "#",
+      "facebook": "#"
+    }
+  },
+  "navigation": {
+    "primary": [
+      {
+        "name": "Loans",
+        "slug": "loans",
+        "active": true
+      },
+      {
+        "name": "Insurance",
+        "slug": "insurance",
+        "active": false
+      },
+      {
+        "name": "Cards",
+        "slug": "cards",
+        "active": false
+      },
+      {
+        "name": "Payments",
+        "slug": "payments",
+        "active": false
+      }
+    ]
+  }
+}
