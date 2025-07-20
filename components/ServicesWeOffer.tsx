@@ -1,27 +1,28 @@
 // components/ServicesWeOffer.tsx
 import { FaHandHoldingUsd, FaCreditCard, FaFileInvoice, FaPaypal } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const services = [
   {
     title: "Loans",
     desc: "Know your options — not all loans are created equal.",
-    icon: <FaHandHoldingUsd className="text-[#9fd9ac] text-3xl" />,
+    icon: "/assets/loan.png",
   },
   {
     title: "Cards",
     desc: "Swipe smarter — compare, choose, and control your finances.",
-    icon: <FaCreditCard className="text-[#9fd9ac] text-3xl" />,
+    icon: "/assets/cards.png",
   },
   {
     title: "Insurance",
     desc: "So many insurances, only one that fits you — we help you find it.",
-    icon: <FaFileInvoice className="text-[#9fd9ac] text-3xl" />,
+    icon: "/assets/insurance.png",
   },
   {
     title: "Payments",
     desc: "Your payments deserve more than just a route — they deserve the right one.",
-    icon: <FaPaypal className="text-[#9fd9ac] text-3xl" />,
+    icon: "/assets/payment.png",
   },
 ];
 
@@ -45,7 +46,11 @@ export default function ServicesWeOffer() {
           >
             <div className="flex justify-between items-start mb-6">
               <span className="text-xl font-bold text-gray-900">{service.title}</span>
-              <span className="bg-[#e9f7ee] rounded-full p-2">{service.icon}</span>
+              {typeof service.icon === 'string' ? (
+                <Image src={service.icon} alt={service.title} width={56} height={56} />
+              ) : (
+                service.icon
+              )}
             </div>
             <p className="text-gray-600 text-sm mb-22">{service.desc}</p>
             <Link
