@@ -35,7 +35,7 @@ export default function RootLayout({
       <body className={`${roboto.variable} ${robotoSlab.variable} antialiased`}>
         <Navbar />
         <CategoryBar />
-        <main className="pt-32">
+        <main className="pt-20">
           {children}
         </main>
         <Footer />
