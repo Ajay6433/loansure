@@ -49,15 +49,33 @@ export default function ItemDetailPage({ params }: { params: Params }) {
         {itemData.description}
       </p>
 
-      {/* Features or metadata */}
-      {itemData.features?.length && (
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-10">
-          {itemData.features.map((feat: string, idx: number) => (
-            <div key={idx} className="bg-white border border-gray-200 rounded-xl p-5">
-              <p className="text-gray-700 text-sm leading-relaxed">• {feat}</p>
+      {/* Detail sections */}
+      {itemData.sections?.length ? (
+        <div className="grid gap-6 lg:grid-cols-3 md:grid-cols-2 mb-12">
+          {itemData.sections.map((sec: any, idx: number) => (
+            <div key={idx} className="bg-white border border-gray-300 rounded-xl p-6 transition hover:shadow-[3px_3px_0_0_#9fd9ac,6px_6px_0_0_#64b35d] hover:border-[#64b35d] hover:-translate-y-1">
+              <div className="flex items-center gap-3 mb-4">
+                {sec.icon && <img src={sec.icon} alt={sec.title} className="w-8 h-8" />}
+                <h3 className="text-lg font-semibold">{sec.title}</h3>
+              </div>
+              <ul className="list-disc pl-5 space-y-2 text-sm text-gray-700">
+                {sec.points.map((pt: string, i: number) => (
+                  <li key={i}>{pt}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
+      ) : (
+        itemData.features?.length && (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-10">
+            {itemData.features.map((feat: string, idx: number) => (
+              <div key={idx} className="bg-white border border-gray-200 rounded-xl p-5 transition hover:shadow-[3px_3px_0_0_#9fd9ac,6px_6px_0_0_#64b35d] hover:border-[#64b35d] hover:-translate-y-1">
+                <p className="text-gray-700 text-sm leading-relaxed">• {feat}</p>
+              </div>
+            ))}
+          </div>
+        )
       )}
 
       {/* Metadata section */}

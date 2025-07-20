@@ -15,18 +15,14 @@
             {
               "title": "Gold Loan",
               "slug": "gold-loan",
-              "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
-              "icon": "/assets/gold-loan.png",
+              "description": "Pledge your gold ornaments or assets and avail instant funding for personal needs. Ideal for emergencies, short-term requirements, or working capital.",
+              "icon": "/assets/loans/gold-loan.png",
               "features": [
                 "Quick disbursement",
                 "Low interest rates",
                 "Flexible repayment",
                 "Gold security"
               ],
-              "minAmount": 10000,
-              "maxAmount": 500000,
-              "interestRate": "7.5% - 12%",
-              "tenure": "12-36 months",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -64,7 +60,7 @@
               "title": "Loan Against Property",
               "slug": "loan-against-property",
               "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
-              "icon": "/assets/property-loan.png",
+              "icon": "/assets/loans/property-loan.png",
               "features": [
                 "High loan amounts",
                 "Long tenure options",
@@ -80,7 +76,7 @@
               "title": "Loan Against Security",
               "slug": "loan-against-security",
               "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
-              "icon": "/assets/security-loan.png",
+              "icon": "/assets/loans/security-loan.png",
               "features": [
                 "Securities as collateral",
                 "Quick processing",
@@ -96,7 +92,7 @@
               "title": "Loan Against Fixed Deposit",
               "slug": "loan-against-fixed-deposit",
               "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
-              "icon": "/assets/fd-loan.png",
+              "icon": "/assets/loans/fd-loan.png",
               "features": [
                 "FD as collateral",
                 "Lower interest rates",
@@ -112,17 +108,13 @@
               "title": "Loan Against Insurance Policy",
               "slug": "loan-against-insurance-policy",
               "description": "Not all gold loans are the same. Let us guide you to the best one that fits your need — quick cash, full security, zero confusion.",
-              "icon": "/assets/insurance-loan.png",
+              "icon": "/assets/loans/insurance-loan.png",
               "features": [
                 "Policy as collateral",
                 "No credit check",
                 "Quick approval",
                 "Policy continues"
-              ],
-              "minAmount": 5000,
-              "maxAmount": 500000,
-              "interestRate": "10% - 15%",
-              "tenure": "12-60 months"
+              ]
             }
           ]
         },
