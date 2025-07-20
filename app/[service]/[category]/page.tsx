@@ -56,7 +56,7 @@ export default function ServiceCategoryPage({ params }: { params: Params }) {
             </div>
             <p className="text-sm text-gray-600 flex-1 mb-8">{item.description}</p>
             <Link
-              href={`#/${service}/${category}/${item.slug}`}
+              href={`/${service}/${category}/${item.slug}`}
               className="absolute right-6 bottom-6 text-[#64b35d] font-medium hover:underline"
             >
               Learn More

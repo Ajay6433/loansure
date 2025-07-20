@@ -26,7 +26,39 @@
               "minAmount": 10000,
               "maxAmount": 500000,
               "interestRate": "7.5% - 12%",
-              "tenure": "12-36 months"
+              "tenure": "12-36 months",
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "One-time QR code linked to merchant account",
+                    "Accepts payments via UPI apps (PhonePe, GPay, etc.)",
+                    "No internet or device dependency",
+                    "No setup or maintenance cost"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Individual Property & Registration Business",
+                    "Kirana stores, small shops, street vendors, service providers",
+                    "Must have a valid mobile number linked to UPI",
+                    "Must have an active bank account"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Business Address Proof: Utility Bill / Rent Agreement",
+                    "Business Proof: Shop License / GST Certificate (if applicable)",
+                    "Bank Details: Cancelled Cheque Passbook Copy"
+                  ]
+                }
+              ]
             },
             {
               "title": "Loan Against Property",
