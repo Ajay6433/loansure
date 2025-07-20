@@ -1,5 +1,6 @@
 import data from "../../../../data.json";
 import Link from "next/link";
+import ApplyModal from "../../../../components/ApplyModal";
 
 interface Params {
   service: string;
@@ -108,9 +109,7 @@ export default function ItemDetailPage({ params }: { params: Params }) {
 
       {/* Apply button */}
       <div className="text-center">
-        <button className="bg-[#64b35d] hover:bg-[#4f9b4d] text-white px-8 py-3 rounded-md font-medium shadow">
-          Apply Now
-        </button>
+        <ApplyModal category={categoryData?.name || ''} subCategory={itemData.title} />
       </div>
     </main>
   );
