@@ -123,29 +123,1117 @@
           "slug": "unsecured-personal-loan",
           "description": "Quick personal loans without collateral requirements",
           "icon": "/assets/unsecured-loan.png",
-          "loans": []
+          "loans": [
+            {
+              "title": "Advance Salary Loan",
+              "slug": "advance-salary-loan",
+              "description": "Short-term unsecured loan offered in anticipation of your monthly salary — ideal for mid-month or emergency expenses.",
+              "icon": "/assets/loans/salary-loan.png",
+              "features": [
+                "Quick disbursal within 24 hours",
+                "Loan amount up to 1–2x of monthly salary",
+                "Short-term loan: 1 to 3 months",
+                "No collateral, lower eligibility criteria"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Quick disbursal within 24 hours",
+                    "Short tenure: 1 to 3 months",
+                    "Lower eligibility, no collateral"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried individuals working in listed companies",
+                    "Age: 21–60 years",
+                    "Continuous employment for 6–12 months"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Salary Slips: Last 1–3 months",
+                    "Employment ID / Offer Letter",
+                    "Bank Statements: Last 3 months"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Balance Transfer Loan",
+              "slug": "balance-transfer-loan",
+              "description": "Lower your EMI burden by transferring your high-interest personal loan to another lender offering better rates.",
+              "icon": "/assets/loans/balance-transfer.png",
+              "features": [
+                "Reduce interest rate and EMI",
+                "Transfer existing loan to a new lender",
+                "Option to get top-up loan",
+                "Flexible tenure"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Transfer existing loan",
+                    "Top-up option available",
+                    "Lower interest rate"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Personal loan with 6–12 EMIs paid",
+                    "Age: 21–60 years",
+                    "Good repayment track record"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Loan Statement from Existing Lender",
+                    "Income Proof: Salary Slip / ITR",
+                    "Bank Statements: Last 6 months"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Instant Personal Loan",
+              "slug": "instant-personal-loan",
+              "description": "Quick digital loan disbursed with minimal paperwork and faster approval. Ideal for urgent cash needs like medical expenses, travel, or shopping.",
+              "icon": "/assets/loans/instant-loan.png",
+              "features": [
+                "Fast approval and disbursal (within hours)",
+                "100% digital application",
+                "Loan: ₹10,000 to ₹5 lakhs+",
+                "Tenure: 3 months to 5 years"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fast approval and disbursal (within hours) ",
+                    "Completely digital application process ",
+                    "Loan amount: ₹10,000 to ₹5 lakhs+",
+                    "Tenure: 3 months to 5 years "
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Stable employment/business profile"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Income Proof: Salary Slips / Bank Statements",
+                    "Selfie / eSign (if digital)",
+                    "Employment Proof / Offer Letter"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Personal Loan",
+              "slug": "personal-loan",
+              "description": "An unsecured loan for personal use provided by banks, NBFCs, or fintechs — without requiring any collateral.",
+              "icon": "/assets/loans/personal-loan.png",
+              "features": [
+                "Fast approval and disbursal (within a day)",
+                "Completely digital application",
+                "Loan amount: ₹10,000 to ₹5 lakhs+",
+                "Flexible tenure: 3 months to 5 years"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fast approval and disbursal (within a day)",
+                    "Completely digital application process",
+                    "Loan amount: ₹10,000 to ₹5 lakhs+",
+                    "Tenure: 3 months to 5 years "
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals ",
+                    "Age: 21–60 years",
+                    "Minimum monthly income as per lender criteria ",
+                    "Stable employment/business profile "
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary Slips / Bank Statements",
+                    "Selfie / eSign (if digital) ",
+                    "Employment Proof / Offer Letter (if needed) "
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Personal Overdraft Facility",
+              "slug": "personal-overdraft",
+              "description": "Flexible, revolving line of credit where you pay interest only on the amount utilized — perfect for fluctuating cash needs.",
+              "icon": "/assets/loans/od-loan.png",
+              "features": [
+                "Credit limit sanctioned once",
+                "Revolving line of credit",
+                "Pay interest only on used amount",
+                "Limit up to ₹5 lakhs+"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Credit limit sanctioned once, used as needed",
+                    "Interest only on amount used",
+                    "Revolving credit line (can be reused)",
+                    "Limit up to ₹5 lakhs or more"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Steady monthly income or turnover",
+                    "Creditworthiness & employer/business profile"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary Slips / ITR",
+                    "Bank Statements: Last 6 months",
+                    "OD Request Form / Sanction Agreement"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Top-Up Loan",
+              "slug": "top-up-loan",
+              "description": "Get additional funding on your existing personal loan without starting a new application. Ideal for ongoing financial needs.",
+              "icon": "/assets/loans/topup-loan.png",
+              "features": [
+                "Top-up on existing personal loan",
+                "Faster processing with fewer checks",
+                "Same or lower interest rate",
+                "Flexible tenure continuation"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra loan over current personal loan",
+                    "Same or lower interest rate than original loan",
+                    "Quicker processing with minimal checks",
+                    "Tenure may be extended or kept the same"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Existing personal loan borrower with good repayment",
+                    "Age: 21–60 years",
+                    "Satisfactory EMI payment history (6–12 months)",
+                    "Positive credit score (700+)"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Existing Loan Statement / Repayment History",
+                    "Income Proof: Latest Salary Slip / ITR",
+                    "Bank Statements: Last 3–6 months"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Educational Loan",
           "slug": "educational-loan",
           "description": "Finance your education with flexible repayment options",
           "icon": "/assets/education-loan.png",
-          "loans": []
+          "loans": [
+            {
+              "title": "Domestic Education Loan",
+              "slug": "domestic-education-loan",
+              "description": "Finance your higher education in India — including tuition, books, hostel, and more — with affordable interest rates and flexible repayment terms.",
+              "icon": "/assets/loans/domestic-edu-loan.png",
+              "features": [
+                "For graduation, post-graduation, or diploma",
+                "Covers tuition, hostel, books, travel, etc.",
+                "Loan amount up to ₹10–15 lakhs",
+                "Moratorium during course + 6–12 months grace"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan covers tuition, hostel, books, travel",
+                    "Loan amount: ₹10–15 lakhs (or higher)",
+                    "Moratorium during course + grace period"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian students admitted to UGC/AICTE/recognized institutes",
+                    "Co-applicant (parent/guardian) usually required",
+                    "Age: 18–35 years",
+                    "Minimum 10+2 qualification"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Admission Letter / Fee Structure",
+                    "Academic Records: Marksheets, Certificates",
+                    "Income Proof of Co-applicant: ITRs / Salary Slips"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Government-Subsidized Education Loan",
+              "slug": "government-subsidized-education-loan",
+              "description": "Offered under schemes like Vidya Lakshmi and CSIS, these loans provide interest subsidies and support for economically weaker sections.",
+              "icon": "/assets/loans/govt-edu-loan.png",
+              "features": [
+                "Interest subsidy during study + moratorium",
+                "Available via Vidya Lakshmi Portal",
+                "Based on merit and financial need",
+                "Support for economically weaker sections"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Interest subsidy available during study + grace",
+                    "For undergraduate studies in India",
+                    "Multi-bank option via Vidya Lakshmi portal"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Annual parental income ≤ ₹4.5 lakhs (CSIS)",
+                    "Admission to recognized Indian institution",
+                    "Must register on govt. portal",
+                    "Only Indian nationals eligible"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Admission Proof + Income Certificate (Form 16/Tehsildar)",
+                    "Academic Records + Fee Details",
+                    "Domicile & Caste Certificate (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Loan with Moratorium",
+              "slug": "loan-with-moratorium",
+              "description": "Ideal for students who want to start repaying only after completing their course. Enjoy a stress-free study period.",
+              "icon": "/assets/loans/moratorium-loan.png",
+              "features": [
+                "No EMI during course duration",
+                "6–12 months grace post completion",
+                "Interest accrues during moratorium",
+                "Available for India and abroad"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No EMI during the course period",
+                    "Grace period of 6–12 months",
+                    "Simple or compound interest may apply"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian students pursuing full-time degree/diploma",
+                    "Age: 18–35 years",
+                    "Good academic standing",
+                    "Co-applicant required"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Admission Letter / Fee Break-up",
+                    "Academic & Income Documents of Co-applicant",
+                    "Bank Statements / Income Proof"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Overseas Education Loan",
+              "slug": "overseas-education-loan",
+              "description": "Support your dream to study abroad with funding that covers tuition, airfare, living expenses, and more for global universities.",
+              "icon": "/assets/loans/overseas-edu-loan.png",
+              "features": [
+                "Covers tuition, travel, living costs abroad",
+                "Loan up to ₹20–50 lakhs or more",
+                "Post-course repayment with grace",
+                "Secured/Unsecured options available"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan for tuition, airfare, living costs abroad",
+                    "₹20–50 lakhs (can go higher)",
+                    "Repayment starts post-course with grace"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian nationals pursuing higher studies overseas",
+                    "Admission to reputed foreign university (Ivy/Top-100)",
+                    "Co-applicant (with Indian income) required",
+                    "Good academic record; collateral for large loans"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, Passport, PAN",
+                    "University Admission Letter / I-20 / Visa Copy",
+                    "Academic Records + Test Scores (GRE/IELTS)",
+                    "Income & Property Docs (for secured)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Secured Education Loan",
+              "slug": "secured-education-loan",
+              "description": "Backed by property, fixed deposits, or securities — these loans offer high funding amounts and lower interest rates for costly courses or overseas education.",
+              "icon": "/assets/loans/secured-edu-loan.png",
+              "features": [
+                "Higher loan amount (₹20–100+ lakhs)",
+                "Lower interest due to collateral",
+                "Longer repayment tenures",
+                "Secured by property, FD, or LIC policy"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan amount: ₹20–100+ lakhs",
+                    "Lower interest rates (collateral-backed)",
+                    "Repayment up to 10–15 years"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Applicant + parent/guardian with eligible collateral",
+                    "Admission to recognized Indian/foreign institutions",
+                    "Co-applicant with income source",
+                    "Age: 18–35 years"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Collateral Docs: Title Deed / FD Certificate",
+                    "Admission Letter / Fee Structure",
+                    "Academic & Income Proofs"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "name": "Secured Business Loan",
-          "slug": "secured-business-loan",
-          "description": "Grow your business with collateral-backed financing",
-          "icon": "/assets/business-loan.png",
-          "loans": []
+  "name": "Secured Business Loan",
+  "slug": "secured-business-loan",
+  "description": "Grow your business with collateral-backed financing",
+  "icon": "/assets/business-loan.png",
+  "loans": [
+    {
+      "title": "Equipment / Machinery Financing Loan",
+      "slug": "equipment-machinery-financing-loan",
+      "description": "Finance for new or used machinery, plant equipment, or business-use commercial vehicles.",
+      "icon": "/assets/loans/equipment-loan.png",
+      "features": [
+        "Up to 90–100% of equipment/machinery cost",
+        "Used/new equipment allowed",
+        "Tenure: 1 to 7 years",
+        "Assets hypothecated"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Up to 100% of equipment/machinery cost",
+            "Used or new machinery allowed",
+            "Hypothecation of financed assets"
+          ]
         },
         {
-          "name": "Unsecured Business Loan",
-          "slug": "unsecured-business-loan",
-          "description": "Quick business financing without collateral",
-          "icon": "/assets/unsecured-business.png",
-          "loans": []
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Contractors, manufacturers, industrial units",
+            "6+ months business vintage",
+            "Consistent turnover preferred",
+            "Must be used for business"
+          ]
         },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business & Promoters",
+            "Proforma Invoice / Quotation",
+            "Bank Statements, ITRs, GST Returns",
+            "Equipment Insurance / Registration (if vehicle)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Export / Import Finance",
+      "slug": "export-import-finance",
+      "description": "Funding for exporters/importers to manage trade cycles, fulfill purchase orders, or cover customs duties.",
+      "icon": "/assets/loans/export-import-loan.png",
+      "features": [
+        "Pre-shipment or post-shipment credit",
+        "Working capital support in INR or FX",
+        "Tenure: 30 days to 1 year",
+        "Can be secured by invoice, LC, or asset"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Short-term trade finance support",
+            "INR or foreign currency options",
+            "Pre or post-shipment funding"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Exporters/importers with valid IEC",
+            "Active import/export business",
+            "Good customs compliance",
+            "Valid trade licenses and UDYAM (if MSME)"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC & IEC Certificate",
+            "Purchase Orders / Invoices",
+            "Bank Statements / Shipping Bills",
+            "ITRs / GST Returns / Trade Docs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Invoice / Bill Discounting",
+      "slug": "invoice-bill-discounting",
+      "description": "Short-term funding against unpaid business invoices to improve cash flow.",
+      "icon": "/assets/loans/invoice-loan.png",
+      "features": [
+        "Finance up to 80–90% of invoice value",
+        "Tenure: 30–180 days",
+        "Funds disbursed within 48–72 hours",
+        "Collateral: invoice assignment"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Up to 90% of invoice value",
+            "Fast disbursal within 72 hours",
+            "Invoice acts as collateral"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "B2B suppliers with credit sales",
+            "Invoices raised to reputed buyers",
+            "6+ months business vintage preferred",
+            "Creditworthy debtor/buyer required"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business",
+            "Sales Invoices & Purchase Orders",
+            "Bank Statements (6 months)",
+            "GST Returns / Agreement with Buyer"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Loan Against Commercial Property",
+      "slug": "loan-against-commercial-property",
+      "description": "Raise capital by pledging owned commercial space — ideal for large business needs.",
+      "icon": "/assets/loans/commercial-property-loan.png",
+      "features": [
+        "Loans from ₹25 lakhs to ₹10+ crores",
+        "Tenure up to 10–15 years",
+        "Lower interest than unsecured loans",
+        "No business disruption during loan"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Loan against owned commercial property",
+            "Large ticket funding up to ₹10+ crores",
+            "Long repayment tenure (10–15 years)"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Self-employed or business owners",
+            "Clear property title",
+            "Steady business income preferred",
+            "Age 21–65 years"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business & Owners",
+            "Property Papers (Title Deed, Tax Receipts)",
+            "ITRs, GST Returns, Balance Sheets",
+            "Bank Statements (6–12 months)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Loan Against Property (LAP)",
+      "slug": "loan-against-property-lap",
+      "description": "Pledge residential or mixed-use property to raise funds for business purposes.",
+      "icon": "/assets/loans/lap-loan.png",
+      "features": [
+        "Loan size: ₹10 lakhs to ₹10+ crores",
+        "Tenure up to 15–20 years",
+        "Lower interest (~9% onwards)",
+        "Used for expansion, working capital"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Raise funds by pledging residential property",
+            "Up to ₹10+ crores with low interest rates",
+            "Long repayment tenures"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Business owners / Professionals",
+            "Clear and marketable residential title",
+            "Age 21–65 years",
+            "Income consistency preferred"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business & Owner(s)",
+            "Property Papers (Deed, Tax Receipts)",
+            "Bank Statements (6–12 months)",
+            "ITRs / GST Returns / Financials"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Loan Against Securities (LAS)",
+      "slug": "loan-against-securities-las",
+      "description": "Raise business capital without liquidating shares, mutual funds, or bonds.",
+      "icon": "/assets/loans/las-loan.png",
+      "features": [
+        "OD/Term loan against demat assets",
+        "Tenure: 1–3 years",
+        "Interest only on utilized amount",
+        "Retain asset ownership"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Funding against shares, MFs, bonds",
+            "Listed securities accepted",
+            "Retain ownership of assets"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Individual/business owning eligible securities",
+            "Listed shares, MFs, bonds accepted",
+            "Creditworthiness essential",
+            "Approved security list only"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Applicant",
+            "Demat Statement / MF Portfolio",
+            "Pledge Agreement / PAN",
+            "Bank Statements / ITRs (as required)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Working Capital Loan (Secured)",
+      "slug": "working-capital-loan-secured",
+      "description": "Collateral-backed credit for managing day-to-day operational expenses, inventory, and vendor payments.",
+      "icon": "/assets/loans/working-capital-loan.png",
+      "features": [
+        "Loan amount: ₹5 lakhs to ₹10+ crores",
+        "Tenure: 12 to 60 months",
+        "Security: property, FD, inventory, etc.",
+        "OD/CC/Cash Credit options available"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Secured working capital for operations",
+            "Collateral: property, FD, stock, etc.",
+            "OD/CC/Cash Credit options"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Businesses with 1+ year track record",
+            "Turnover of ₹25L+ preferred",
+            "All registered business types",
+            "Clean credit history preferred"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business & Promoters",
+            "Bank Statements (6–12 months)",
+            "ITRs / GST Returns / Balance Sheets",
+            "Collateral Documents (Property/Asset)"
+          ]
+        }
+      ]
+    }
+  ]
+},
+        {
+  "name": "Unsecured Business Loan",
+  "slug": "unsecured-business-loan",
+  "description": "Quick business financing without collateral",
+  "icon": "/assets/unsecured-business.png",
+  "loans": [
+    {
+      "title": "Business Expansion Loan",
+      "slug": "business-expansion-loan",
+      "description": "Ideal for expanding operations — such as opening new branches, boosting production, hiring staff, or scaling marketing.",
+      "icon": "/assets/loans/expansion-loan.png",
+      "features": [
+        "Unsecured loan up to ₹50 lakhs+",
+        "Tenure up to 5 years",
+        "No collateral required",
+        "Fast approval, minimal paperwork"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Unsecured loan up to ₹50 lakhs+",
+            "Tenure up to 5 years",
+            "No collateral required",
+            "Fast approval, minimal paperwork"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Business vintage of 2+ years",
+            "Sole prop, partnership, Pvt Ltd firms",
+            "Turnover > ₹10 lakhs preferred",
+            "Good credit history essential"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Business & Promoters",
+            "Bank Statements (6–12 months)",
+            "GST Returns / ITRs / Financials",
+            "Business Registration Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Merchant Cash Advance",
+      "slug": "merchant-cash-advance",
+      "description": "Loan linked to monthly debit/credit card or UPI sales. Ideal for retailers, restaurants, or D2C businesses.",
+      "icon": "/assets/loans/merchant-cash-advance.png",
+      "features": [
+        "Disbursal based on 3–6 months’ digital sales",
+        "Daily/weekly repayment from future sales",
+        "No fixed EMI — repayment tied to sales",
+        "Short tenure: 3 to 12 months"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Disbursal based on 3–6 months’ digital sales",
+            "Daily/weekly repayment from future sales",
+            "No fixed EMI — repayment tied to sales",
+            "Short tenure: 3 to 12 months"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "₹1L–5L+ monthly card/UPI sales",
+            "6+ months of business operations",
+            "Retailers, cafés, online sellers",
+            "Clean digital transaction trail"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC & Business Registration",
+            "POS/UPI/Gateway Sales Reports",
+            "Bank Statements (6 months)",
+            "Utility Bills / Rent Agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MSME / SME Loan",
+      "slug": "msme-sme-loan",
+      "description": "Collateral-free working capital loan for small and medium enterprises.",
+      "icon": "/assets/loans/msme-loan.png",
+      "features": [
+        "Loan range: ₹50,000 to ₹50 lakhs",
+        "No collateral required",
+        "Tenure up to 5 years",
+        "Subsidy schemes available (e.g., CGTMSE)"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Loan range: ₹50,000 to ₹50 lakhs",
+            "No collateral required",
+            "Tenure up to 5 years",
+            "Subsidy schemes available (e.g., CGTMSE)"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "MSMEs with 1+ year operations",
+            "Turnover > ₹10 lakhs preferred",
+            "Sole prop / LLP / Pvt Ltd firms",
+            "Good CIBIL / CRIF score"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "Udyam/MSME Certificate",
+            "KYC & Business Proof",
+            "Bank Statements (6–12 months)",
+            "GST / ITR / Financial Statements"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Revolving Line of Credit",
+      "slug": "revolving-line-of-credit",
+      "description": "Flexible credit limit used on-demand for ongoing business needs like vendor payments, inventory, or payroll.",
+      "icon": "/assets/loans/revolving-credit.png",
+      "features": [
+        "Limit: ₹2 lakhs to ₹50 lakhs",
+        "Interest charged only on amount used",
+        "Credit replenishes as repayments are made",
+        "Tenure: Renewable annually"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Limit: ₹2 lakhs to ₹50 lakhs",
+            "Interest charged only on amount used",
+            "Credit replenishes as repayments are made",
+            "Tenure: Renewable annually"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Registered business with 1+ year vintage",
+            "Consistent monthly revenue",
+            "Good credit history required",
+            "Sole Prop, LLP, Pvt Ltd, Partnership"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Entity & Promoters",
+            "Bank Statements (6–12 months)",
+            "ITRs / GST / Financials",
+            "Business Registration Proof"
+          ]
+        }
+      ]
+    },
+        {
+      "title": "Startup Business Loan",
+      "slug": "startup-business-loan",
+      "description": "Seed or growth capital for early-stage startups with product-market fit or investor support.",
+      "icon": "/assets/loans/startup-loan.png",
+      "features": [
+        "Loan from ₹5 lakhs to ₹1 crore",
+        "Backed by CGTMSE/SIDBI (optional)",
+        "Tenure from 1 to 5 years",
+        "May be unsecured or partially secured"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Loan from ₹5 lakhs to ₹1 crore",
+            "Backed by CGTMSE/SIDBI (optional)",
+            "Tenure from 1 to 5 years",
+            "May be unsecured or partially secured"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Registered as Pvt Ltd, LLP, OPC",
+            "MVP or revenue traction preferred",
+            "Founder age 21–45 preferred",
+            "Strong credit & repayment profile"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Founders & Entity",
+            "Business Plan / Pitch Deck",
+            "Bank Statements, Income Proof",
+            "Company Registration, Shareholding Pattern"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Overdraft Facility (Unsecured)",
+      "slug": "overdraft-facility-unsecured",
+      "description": "Unsecured overdraft limit for managing daily business cash flow or emergencies.",
+      "icon": "/assets/loans/unsecured-od.png",
+      "features": [
+        "OD limit up to ₹25 lakhs",
+        "Pay interest only on used amount",
+        "Flexible withdrawals/re-deposits",
+        "Tenure: 1 year, renewable"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "OD limit up to ₹25 lakhs",
+            "Pay interest only on used amount",
+            "Flexible withdrawals/re-deposits",
+            "Tenure: 1 year, renewable"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "Business vintage of 1+ year",
+            "Healthy average bank balance",
+            "Good banking relationship/history",
+            "All entity types eligible"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC & Business Proof",
+            "Bank Statements (6–12 months)",
+            "ITRs / GST / Financial Statements",
+            "Business Registration Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Working Capital Loan (Unsecured)",
+      "slug": "working-capital-loan-unsecured",
+      "description": "Short-term funding to manage operations, inventory, or receivables — no collateral needed.",
+      "icon": "/assets/loans/unsecured-working-capital.png",
+      "features": [
+        "Loan tenure: 3–12 months",
+        "Bullet repayment / EMI / overdraft style",
+        "Interest on usage only",
+        "Fast approval for repeat borrowers"
+      ],
+      "sections": [
+        {
+          "title": "Key Highlights",
+          "icon": "/assets/icons/key-highlights.png",
+          "points": [
+            "Loan tenure: 3–12 months",
+            "Bullet repayment / EMI / overdraft style",
+            "Interest on usage only",
+            "Fast approval for repeat borrowers"
+          ]
+        },
+        {
+          "title": "Eligibility",
+          "icon": "/assets/icons/eligibility.png",
+          "points": [
+            "1+ year of business operations",
+            "Turnover > ₹10–15 lakhs preferred",
+            "Good credit profile essential",
+            "All entity types eligible"
+          ]
+        },
+        {
+          "title": "Onboarding Requirement",
+          "icon": "/assets/icons/onboarding.png",
+          "points": [
+            "KYC of Entity & Promoters",
+            "Bank Statements (6–12 months)",
+            "ITRs / GST / Financials",
+            "Registration & Compliance Docs"
+          ]
+        }
+      ]
+    }
+
+   ]
+},
         {
           "name": "Home Loan",
           "slug": "home-loan",
