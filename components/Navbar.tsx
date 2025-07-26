@@ -34,7 +34,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center space-x-4 relative z-20">
           <img
-            src="/assets/logo.png"
+            src="/assets/Logo.png"
             alt="Logo"
             className="w-[154px] h-[133px] -mb-7 p-4"
           />
