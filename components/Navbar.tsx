@@ -2,10 +2,13 @@
 import Link from 'next/link';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
+import { useRouter } from 'next/navigation';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<boolean>(false);
+
+  const router = useRouter();
 
   // Menus: first 2 = 11 sublinks, rest = 5
   const menus = [
@@ -32,7 +35,7 @@ export default function Navbar() {
       {/* Fixed Main Navbar */}
       <nav className="bg-white h-23 flex items-center justify-between px-6 py-4 shadow fixed top-0 left-0 w-full z-50 overflow-visible">
         {/* Logo */}
-        <div className="flex items-center space-x-4 relative z-20">
+        <div className="flex items-center space-x-4 relative z-20" onClick={() => router.push('/')}>
           <img
             src="/assets/Logo.png"
             alt="Logo"

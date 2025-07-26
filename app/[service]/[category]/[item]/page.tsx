@@ -24,8 +24,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function ItemDetailPage({ params }: { params: Params }) {
-  const { service, category, item } = params;
+export default async function ItemDetailPage({ params }: { params: Params }) {
+  const { service, category, item } = await params;
   const serviceData = services[service];
   const categoryData = serviceData?.categories?.find((c: any) => c.slug === category);
   const itemData = (categoryData?.loans || categoryData?.items || []).find((i: any) => i.slug === item);
