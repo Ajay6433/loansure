@@ -5,8 +5,8 @@ interface Params {
   service: string;
 }
 
-export default function ServiceRootPage({ params }: { params: Params }) {
-  const { service } = params;
+export default async function ServiceRootPage({ params }: { params: Params }) {
+  const { service } = await params;
   const categories = (data as any).services?.[service]?.categories || [];
   const firstSlug = categories.length > 0 ? categories[0].slug : "";
 

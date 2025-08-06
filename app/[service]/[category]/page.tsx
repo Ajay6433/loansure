@@ -18,8 +18,8 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function ServiceCategoryPage({ params }: { params: Params }) {
-  const { service, category } = params;
+export default async function ServiceCategoryPage({ params }: { params: Params }) {
+  const { service, category } = await params;
   const serviceData = services[service];
   if (!serviceData) {
     return <div className="max-w-4xl mx-auto py-20 text-center">Service not found.</div>;
