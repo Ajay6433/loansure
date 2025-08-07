@@ -30,7 +30,7 @@ export default function Footer() {
           </div>
         </div>
         {/* Contact */}
-        <div className="flex flex-col items-center md:items-start">
+        <div className="flex flex-col items-center md:items-start" id='Footer'>
           <p className="flex items-center gap-2 mb-1">
             <MdOutlineCall size={20} className="text-[#64b35d]" />
             <span>8899003355</span>

@@ -283,6 +283,7 @@
               "title": "Loan Against Gold",
               "slug": "loan-against-gold",
               "description": "Pledge your gold ornaments or assets and avail instant funding for personal needs. Ideal for emergencies, short-term requirements, or working capital.",
+              "icon": "/assets/loans/salary-loan.png",
               "features": [
                 "Instant loan against gold jewelry",
                 "High LTV ratio (up to 75%)",
@@ -326,6 +327,7 @@
               "title": "Loan Against Fixed Deposit (FD)",
               "slug": "loan-against-fd",
               "description": "Access immediate liquidity without breaking your FD. Enjoy a loan or overdraft facility at a lower interest rate with your fixed deposit as collateral.",
+              "icon": "/assets/loans/salary-loan.png",
               "features": [
                 "Loan of up to 90–95% of FD value",
                 "Interest rate ~1–2% higher than FD rate",
@@ -412,6 +414,7 @@
               "title": "Loan Against Property (LAP)",
               "slug": "loan-against-property",
               "description": "Unlock the value of your owned residential or commercial property to meet personal or business financial needs.",
+              "icon": "/assets/loans/salary-loan.png",
               "features": [
                 "High loan amount based on property value",
                 "Lower interest rates than unsecured loans",
@@ -454,6 +457,7 @@
               "title": "Loan Against Securities (LAS)",
               "slug": "loan-against-securities",
               "description": "Leverage your investments without liquidating them. Get instant funds by pledging your shares, mutual funds, bonds, or insurance policies as collateral.",
+              "icon": "/assets/loans/salary-loan.png",
               "features": [
                 "Loan against listed shares, mutual funds, bonds",
                 "Retain ownership and earn returns on securities",

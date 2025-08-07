@@ -54,7 +54,7 @@ export default function ServicesWeOffer() {
             </div>
             <p className="text-gray-600 text-sm mb-22">{service.desc}</p>
             <Link
-              href="#"
+              href={`/${service.title.toLowerCase()}`}
               className="
                 absolute right-6 bottom-6
                 text-[#64b35d] border border-[#64b35d] bg-white rounded-md px-5 py-2 font-medium
