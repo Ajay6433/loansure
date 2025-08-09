@@ -2270,13 +2270,13 @@
           "name": "Lifetime Free Credit Cards",
           "slug": "lifetime-free-credit-cards",
           "description": "No joining or renewal fee — enjoy credit without long-term cost. Great for building credit or minimal spenders.",
-          "icon": "/assets/cards/lifetime-free-card.png",
+          "icon": "/assets/cards/lifetime-card.png",
           "loans": [
             {
               "title": "Lifetime Free Credit Cards",
               "slug": "lifetime-free-credit-cards",
               "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
-              "icon": "/assets/cards/lifetime-free-card.png",
+              "icon": "/assets/cards/lifetime-card.png",
               "features": [
                 "No joining fee or annual maintenance charges",
                 "Basic reward points, cashback, or fuel surcharge waivers",
@@ -2528,7 +2528,7 @@
               "title": "Accidental Death Benefit",
               "slug": "accidental-death-benefit",
               "description": "Pays a fixed sum to the nominee in case of the insured’s death due to an accident.",
-              "icon": "/assets/insurance/accidental-death.png",
+              "icon": "/assets/insurance/personal-accidental.png",
               "features": [
                 "Full sum assured paid on accidental death",
                 "Available as standalone or rider with life policy",
@@ -2569,7 +2569,7 @@
               "title": "Critical Illness Insurance",
               "slug": "critical-illness-insurance",
               "description": "Provides a lump sum payout on diagnosis of specified life-threatening illnesses like cancer, heart attack, or stroke.",
-              "icon": "/assets/insurance/critical-illness.png",
+              "icon": "/assets/insurance/term-critical-illness.png",
               "features": [
                 "Covers major illnesses: Cancer, Kidney failure, etc.",
                 "Lump sum benefit upon first diagnosis",
@@ -2610,7 +2610,7 @@
               "title": "Permanent & Partial Disability Cover",
               "slug": "permanent-partial-disability-cover",
               "description": "Provides financial compensation for total or partial disability caused by an accident.",
-              "icon": "/assets/insurance/disability-cover.png",
+              "icon": "/assets/insurance/personal-disability.png",
               "features": [
                 "Covers loss of limbs, sight, or mobility",
                 "Lump sum payout based on type and extent of disability",
@@ -2659,7 +2659,7 @@
               "title": "Group Life Insurance",
               "slug": "group-life-insurance",
               "description": "Provides life cover to all members/employees of an organization under a single policy.",
-              "icon": "/assets/insurance/group-life.png",
+              "icon": "/assets/insurance/group-life-insurance.png",
               "features": [
                 "Uniform or graded life cover for all members",
                 "Cost-effective bulk life insurance",
@@ -2700,7 +2700,7 @@
               "title": "Group Health Insurance",
               "slug": "group-health-insurance",
               "description": "Offers medical insurance for employees/members with options like maternity, OPD, and pre-existing disease coverage.",
-              "icon": "/assets/insurance/group-health.png",
+              "icon": "/assets/insurance/group-health-insurance.png",
               "features": [
                 "Covers hospitalization, pre- & post-hospital expenses",
                 "Customizable cover: room rent, maternity, daycare",
@@ -2741,7 +2741,7 @@
               "title": "Group Personal Accident Insurance",
               "slug": "group-personal-accident-insurance",
               "description": "Covers accidental death, disability, and medical expenses for all employees under a single plan.",
-              "icon": "/assets/insurance/group-accident.png",
+              "icon": "/assets/insurance/group-accident-insurance.png",
               "features": [
                 "Lump sum paid on accidental death or disability",
                 "Covers temporary/permanent disability & hospitalization",
@@ -2790,7 +2790,7 @@
               "title": "Family Floater Plans",
               "slug": "family-floater-plans",
               "description": "Single policy covering the entire family (self, spouse, children, parents) with a shared sum insured.",
-              "icon": "/assets/insurance/family-floater.png",
+              "icon": "/assets/insurance/health-family-floater.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -2824,7 +2824,7 @@
               "title": "Individual Health Plans",
               "slug": "individual-health-plans",
               "description": "Covers a single individual for hospitalization, surgeries, and other medical expenses with annual health cover limits.",
-              "icon": "/assets/insurance/individual-health.png",
+              "icon": "/assets/insurance/health-individual.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -2858,7 +2858,7 @@
               "title": "Senior Citizen Health Plans",
               "slug": "senior-citizen-health-plans",
               "description": "Tailored for individuals aged 60 and above with extended medical and hospitalization coverage.",
-              "icon": "/assets/insurance/senior-health.png",
+              "icon": "/assets/insurance/health-senior-citizen.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -2892,7 +2892,7 @@
               "title": "Top-Up/Super Top-Up Plans",
               "slug": "top-up-super-top-up-plans",
               "description": "Provides extra health insurance coverage after a threshold (deductible) is crossed, ideal as cost-effective backup.",
-              "icon": "/assets/insurance/topup-health.png",
+              "icon": "/assets/insurance/investment-savings.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -2928,13 +2928,13 @@
           "name": "Investment Plans",
           "slug": "investment-plans",
           "description": "Build wealth and secure your future with guaranteed returns or market-linked insurance solutions.",
-          "icon": "/assets/insurance/investment.png",
+          "icon": "/assets/insurance/investment-guaranteed.png",
           "loans": [
             {
               "title": "Guaranteed Return Plans",
               "slug": "guaranteed-return-plans",
               "description": "Offer assured maturity amount irrespective of market conditions — ideal for conservative investors.",
-              "icon": "/assets/insurance/guaranteed-return.png",
+              "icon": "/assets/insurance/investment-guaranteed.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -2968,7 +2968,7 @@
               "title": "Savings Endowment Plans",
               "slug": "savings-endowment-plans",
               "description": "Traditional life insurance plan that provides a lump sum on maturity along with life cover.",
-              "icon": "/assets/insurance/endowment.png",
+              "icon": "/assets/insurance/life-endowment.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3002,7 +3002,7 @@
               "title": "Unit Linked Insurance Plans (ULIPs)",
               "slug": "ulip-plans",
               "description": "Combines life insurance with market-linked investments, offering flexibility and long-term wealth creation.",
-              "icon": "/assets/insurance/ulip.png",
+              "icon": "/assets/insurance/investment-unit-linked.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3036,7 +3036,7 @@
               "title": "Wealth Creation Plans",
               "slug": "wealth-creation-plans",
               "description": "Insurance plans focused on building long-term wealth with flexibility in investments and premium payments.",
-              "icon": "/assets/insurance/wealth-creation.png",
+              "icon": "/assets/insurance/investment-wealth.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3078,7 +3078,7 @@
               "title": "Child Insurance Plans",
               "slug": "child-insurance-plans",
               "description": "Designed to secure a child’s future with funds for education, marriage, or other milestones, even in case of parent's demise.",
-              "icon": "/assets/insurance/child-insurance.png",
+              "icon": "/assets/insurance/life-child.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3113,7 +3113,7 @@
               "title": "Endowment Plans",
               "slug": "endowment-plans",
               "description": "Offers life insurance along with a lump sum payout on maturity. Ideal for saving for future goals.",
-              "icon": "/assets/insurance/endowment.png",
+              "icon": "/assets/insurance/life-endowment.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3147,7 +3147,7 @@
               "title": "Retirement & Pension Plans",
               "slug": "retirement-pension-plans",
               "description": "Builds a retirement corpus with regular income (annuity) post-retirement. Can be purchased as deferred or immediate annuity.",
-              "icon": "/assets/insurance/pension.png",
+              "icon": "/assets/insurance/life-pension.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3181,7 +3181,7 @@
               "title": "Whole Life Insurance",
               "slug": "whole-life-insurance",
               "description": "Provides lifelong coverage (up to age 99 or 100) along with a savings/investment component and guaranteed death benefit.",
-              "icon": "/assets/insurance/whole-life.png",
+              "icon": "/assets/insurance/life-whole-life.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3224,7 +3224,7 @@
               "title": "Car Insurance (Private Vehicles)",
               "slug": "car-insurance-private",
               "description": "Provides financial protection against accidents, theft, damage, and third-party liabilities for privately owned cars.",
-              "icon": "/assets/insurance/car-insurance.png",
+              "icon": "/assets/loans/securedvehicle-car-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3259,7 +3259,7 @@
               "title": "Commercial Vehicle Insurance",
               "slug": "commercial-vehicle-insurance",
               "description": "Protects trucks, taxis, auto-rickshaws, and goods carriers used for commercial purposes from damages and liabilities.",
-              "icon": "/assets/insurance/commercial-vehicle.png",
+              "icon": "/assets/loans/securedvehicle-commercial-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3294,7 +3294,7 @@
               "title": "Two-Wheeler Insurance",
               "slug": "two-wheeler-insurance",
               "description": "Covers financial loss due to accident, theft, or third-party damage involving motorcycles and scooters.",
-              "icon": "/assets/insurance/two-wheeler.png",
+              "icon": "/assets/loans/securedvehicle-bike.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3336,7 +3336,7 @@
               "title": "Commercial Property Insurance",
               "slug": "commercial-property-insurance",
               "description": "Provides financial protection for commercial buildings, offices, or shops against fire, theft, vandalism, and natural disasters.",
-              "icon": "/assets/insurance/commercial-property.png",
+              "icon": "/assets/loans/unsecuredbusiness-msme-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3371,7 +3371,7 @@
               "title": "Home Building Insurance",
               "slug": "home-building-insurance",
               "description": "Covers the physical structure of your residential home against risks like fire, floods, earthquakes, and more.",
-              "icon": "/assets/insurance/home-building.png",
+              "icon": "/assets/loans/housing-home-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3406,7 +3406,7 @@
               "title": "Home Contents Insurance",
               "slug": "home-contents-insurance",
               "description": "Protects household items like electronics, appliances, furniture, and personal belongings from theft or damage.",
-              "icon": "/assets/insurance/home-contents.png",
+              "icon": "/assets/loans/secured-loan-against-security.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3449,7 +3449,7 @@
               "title": "Pure Term Plans",
               "slug": "pure-term-plans",
               "description": "Offers high life cover at low premiums, with no maturity benefit — pure protection for your loved ones.",
-              "icon": "/assets/insurance/pure-term.png",
+              "icon": "/assets/insurance/term-pure-term.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3483,7 +3483,7 @@
               "title": "Term Plan with Critical Illness Cover",
               "slug": "term-critical-illness-cover",
               "description": "Term insurance bundled with lump sum benefit on diagnosis of critical illnesses like cancer, stroke, etc.",
-              "icon": "/assets/insurance/critical-illness.png",
+              "icon": "/assets/insurance/term-critical-illness.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3517,7 +3517,7 @@
               "title": "Term Plan with Return of Premium",
               "slug": "term-return-of-premium",
               "description": "Provides life cover along with a refund of total premiums paid if you survive the policy term.",
-              "icon": "/assets/insurance/return-premium.png",
+              "icon": "/assets/insurance/term-return.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3559,7 +3559,7 @@
               "title": "Business Travel Insurance",
               "slug": "business-travel-insurance",
               "description": "Covers frequent international business travellers against trip-related risks like cancellation, illness, and loss of documents.",
-              "icon": "/assets/insurance/business-travel.png",
+              "icon": "/assets/loans/educational-overseas-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3594,7 +3594,7 @@
               "title": "Domestic Travel Insurance",
               "slug": "domestic-travel-insurance",
               "description": "Covers travel-related risks such as trip cancellation, medical emergencies, and loss of baggage within India.",
-              "icon": "/assets/insurance/domestic-travel.png",
+              "icon": "/assets/loans/educational-domestic-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3629,7 +3629,7 @@
               "title": "International Travel Insurance",
               "slug": "international-travel-insurance",
               "description": "Protects against medical expenses, trip delays, baggage loss, or passport theft during overseas travel.",
-              "icon": "/assets/insurance/international-travel.png",
+              "icon": "/assets/loans/housing-nri-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3664,7 +3664,7 @@
               "title": "Student Travel Insurance",
               "slug": "student-travel-insurance",
               "description": "Tailored for students going abroad for studies, offering extended coverage including study interruption and sponsor protection.",
-              "icon": "/assets/insurance/student-travel.png",
+              "icon": "/assets/loans/educational-moratorium-loan.png",
               "sections": [
                 {
                   "title": "Key Highlights",
@@ -3715,6 +3715,7 @@
               "title": "Dynamic QR Code",
               "slug": "dynamic-qr-code",
               "description": "A system-generated QR code that changes with each transaction, ideal for businesses requiring billing-level payment tracking.",
+              "icon": "/assets/payments/qrcode.png",
               "features": [
                 "Unique QR code generated per transaction",
                 "Enables automated reconciliation with real-time billing",
@@ -3758,6 +3759,7 @@
               "title": "Sound Box QR Code",
               "slug": "soundbox-qr-code",
               "description": "A UPI-enabled QR payment device with real-time voice confirmation for every transaction – ideal for busy merchants and high-footfall outlets.",
+              "icon": "/assets/payments/soundbox-qr.png",
               "features": [
                 "Voice alerts in real-time for every UPI transaction",
                 "Supports multiple languages and payment apps",
@@ -3801,6 +3803,7 @@
               "title": "Static QR Code",
               "slug": "static-qr-code",
               "description": "A fixed QR code linked to a merchant’s account; ideal for small businesses and fixed-location payments.",
+              "icon": "/assets/payments/static-qr.png",
               "features": [
                 "One-time QR code linked to merchant account",
                 "Accepts payments via UPI apps (PhonePe, GPay, etc.)",
@@ -3852,6 +3855,7 @@
               "title": "Wallet-Enabled & Loyalty Program POS",
               "slug": "wallet-loyalty-pos",
               "description": "POS terminals that support mobile wallet payments and integrate with loyalty rewards systems.",
+              "icon": "/assets/payments/pos-wallet.png",
               "features": [
                 "Accepts wallets: Paytm, PhonePe, Mobikwik, etc.",
                 "Loyalty points integration with CRM or third-party apps",
@@ -3895,6 +3899,7 @@
               "title": "EMI on Card POS Terminal",
               "slug": "emi-card-pos",
               "description": "Enable easy EMI conversion for high-value purchases directly on customer credit/debit cards.",
+              "icon": "/assets/payments/pos-emi.png",
               "features": [
                 "EMI options for 3, 6, 9, 12+ months",
                 "Supported banks: HDFC, ICICI, SBI, Axis, BOB, etc.",
@@ -3938,6 +3943,7 @@
               "title": "BNPL & Consumer Loan POS Terminal",
               "slug": "bnpl-pos-terminal",
               "description": "Offer Buy Now Pay Later (BNPL) or instant consumer financing at checkout through integrated POS systems.",
+              "icon": "/assets/payments/pos-consumer.png",
               "features": [
                 "Instant BNPL approval via partner NBFCs/fintechs",
                 "Loan size from ₹1,000 to ₹2 lakhs",
@@ -3981,6 +3987,7 @@
               "title": "Vendor Payment POS System",
               "slug": "vendor-payment-pos",
               "description": "Enable vendor/supplier payouts from POS terminals with compliance and reconciliation tools.",
+              "icon": "/assets/payments/pos-pos.png",
               "features": [
                 "Bulk vendor payments via IMPS, NEFT, RTGS, UPI",
                 "Set payout cycles, manage TDS/GST compliance",
@@ -4032,6 +4039,7 @@
               "title": "Payment Links",
               "slug": "payment-links",
               "description": "Generate and share a payment link via SMS, email, or WhatsApp to collect payments without a website or app.",
+              "icon": "/assets/payments/ncp-links.png",
               "features": [
                 "Instantly create one-time or recurring payment links",
                 "Accept UPI, cards, net banking, wallets via the link",
@@ -4075,6 +4083,7 @@
               "title": "Payment Buttons",
               "slug": "payment-buttons",
               "description": "Add customizable “Pay Now” buttons on blogs, websites, or landing pages to accept online payments.",
+              "icon": "/assets/payments/ncp-button.png",
               "features": [
                 "One-click payment via embedded HTML/JS button",
                 "Accepts UPI, debit/credit cards, wallets, net banking",
@@ -4118,6 +4127,7 @@
               "title": "Payment Invoices",
               "slug": "payment-invoices",
               "description": "Create branded digital invoices with integrated payment options, shared via email, PDF, or link.",
+              "icon": "/assets/payments/ncp-invoice.png",
               "features": [
                 "GST-compliant digital invoice with payment button",
                 "Includes tax, discounts, itemized billing, due date",
@@ -4169,6 +4179,7 @@
               "title": "Domestic Payment Acceptance",
               "slug": "domestic-payment-acceptance",
               "description": "Accept payments from Indian customers via UPI, credit/debit cards, net banking, and wallets.",
+              "icon": "/assets/payments/payin-domestic.png",
               "features": [
                 "Accept UPI, cards, net banking, and wallets",
                 "Supported on payment links, QR, POS, and checkout pages",
@@ -4212,6 +4223,7 @@
               "title": "International Acceptance",
               "slug": "international-acceptance",
               "description": "Collect payments from global customers via cards, PayPal, or international wallets in supported currencies.",
+              "icon": "/assets/loans/educational-overseas-loan.png",
               "features": [
                 "Accepts Visa, Mastercard, Amex, Diners from abroad",
                 "USD, EUR, GBP, AUD and more supported",
@@ -4255,6 +4267,7 @@
               "title": "Payment on WhatsApp",
               "slug": "payment-on-whatsapp",
               "description": "Send payment links and collect payments directly via WhatsApp chats — ideal for conversational commerce.",
+              "icon": "/assets/payments/payin-whatsapp.png",
               "features": [
                 "Share pay-enabled links on WhatsApp in real time",
                 "No website/app needed – works via WhatsApp Business",
@@ -4306,6 +4319,7 @@
               "title": "Buy Now Pay Later (BNPL)",
               "slug": "buy-now-pay-later",
               "description": "Allow customers to buy instantly and pay later via short-term credit from BNPL providers—without credit cards.",
+              "icon": "/assets/payments/buy-now-pay-later.png",
               "features": [
                 "Instant approval from BNPL partners (ZestMoney, Simpl, LazyPay, etc.)",
                 "Tenure options: 15 days to 6 months",
@@ -4349,6 +4363,7 @@
               "title": "EMI (Equated Monthly Installments)",
               "slug": "emi",
               "description": "Enable your customers to convert high-ticket purchases into easy monthly installments directly at checkout.",
+              "icon": "/assets/payments/emi.png",
               "features": [
                 "Credit/Debit Card EMI options from top banks",
                 "Tenure options from 3 to 24 months",
@@ -4392,6 +4407,7 @@
               "title": "Offer Engine",
               "slug": "offer-engine",
               "description": "Show real-time bank/brand offers, EMI deals, and cashback promotions at checkout to increase conversions.",
+              "icon": "/assets/payments/offers.png",
               "features": [
                 "Plug-and-play integration of active card/bank offers",
                 "Personalizes offers based on card BIN, bank, or user profile",
@@ -4443,6 +4459,7 @@
               "title": "Order Refunds",
               "slug": "order-refunds",
               "description": "Instantly refund customers via UPI, card, or wallet—directly from your dashboard or via APIs.",
+              "icon": "/assets/payments/payout-refunds.png",
               "features": [
                 "Instant refunds via UPI, cards, wallets, net banking",
                 "API or dashboard-based refund automation",
@@ -4486,6 +4503,7 @@
               "title": "Rewards Disbursement",
               "slug": "rewards-disbursement",
               "description": "Send instant incentives, cashback, vouchers, or loyalty rewards to users via UPI or wallet.",
+              "icon": "/assets/payments/payout-rewards.png",
               "features": [
                 "Transfer ₹5 to ₹5,000 instantly via UPI or wallet",
                 "Disburse cashback, contests, surveys, or referral rewards",
@@ -4529,6 +4547,7 @@
               "title": "Vendor Payment",
               "slug": "vendor-payment",
               "description": "Automate vendor/supplier payments across bank accounts with full TDS/GST compliance and reconciliation.",
+              "icon": "/assets/payments/payout-vendors.png",
               "features": [
                 "Bulk and scheduled vendor payments via IMPS, NEFT, RTGS, UPI",
                 "Set payment cycles, approvers, TDS/GST deductions",
