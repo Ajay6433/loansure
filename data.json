@@ -10,13 +10,13 @@
           "name": "Unsecured Personal Loan",
           "slug": "unsecured-personal-loan",
           "description": "Quick personal loans without collateral requirements",
-          "icon": "/assets/unsecured-loan.png",
+          "icon": "/assets/categtories/unsecured-personal-loan.png",
           "loans": [
             {
               "title": "Advance Salary Loan",
               "slug": "advance-salary-loan",
               "description": "Short-term unsecured loan offered in anticipation of your monthly salary — ideal for mid-month or emergency expenses.",
-              "icon": "/assets/loans/salary-loan.png",
+              "icon": "/assets/loans/unsecured-advance-salary-loan.png",
               "features": [
                 "Quick disbursal within 24 hours",
                 "Loan amount up to 1–2x of monthly salary",
@@ -58,7 +58,7 @@
               "title": "Balance Transfer Loan",
               "slug": "balance-transfer-loan",
               "description": "Lower your EMI burden by transferring your high-interest personal loan to another lender offering better rates.",
-              "icon": "/assets/loans/balance-transfer.png",
+              "icon": "/assets/loans/unsecured-balance-transfer-loan.png",
               "features": [
                 "Reduce interest rate and EMI",
                 "Transfer existing loan to a new lender",
@@ -100,7 +100,7 @@
               "title": "Instant Personal Loan",
               "slug": "instant-personal-loan",
               "description": "Quick digital loan disbursed with minimal paperwork and faster approval. Ideal for urgent cash needs like medical expenses, travel, or shopping.",
-              "icon": "/assets/loans/instant-loan.png",
+              "icon": "/assets/loans/unsecured-instant-personal-loan.png",
               "features": [
                 "Fast approval and disbursal (within hours)",
                 "100% digital application",
@@ -143,7 +143,7 @@
               "title": "Personal Loan",
               "slug": "personal-loan",
               "description": "An unsecured loan for personal use provided by banks, NBFCs, or fintechs — without requiring any collateral.",
-              "icon": "/assets/loans/personal-loan.png",
+              "icon": "/assets/loans/unsecured-personal-loan.png",
               "features": [
                 "Fast approval and disbursal (within a day)",
                 "Completely digital application",
@@ -187,7 +187,7 @@
               "title": "Personal Overdraft Facility",
               "slug": "personal-overdraft",
               "description": "Flexible, revolving line of credit where you pay interest only on the amount utilized — perfect for fluctuating cash needs.",
-              "icon": "/assets/loans/od-loan.png",
+              "icon": "/assets/loans/securedbusiness-import-export.png",
               "features": [
                 "Credit limit sanctioned once",
                 "Revolving line of credit",
@@ -231,7 +231,7 @@
               "title": "Top-Up Loan",
               "slug": "top-up-loan",
               "description": "Get additional funding on your existing personal loan without starting a new application. Ideal for ongoing financial needs.",
-              "icon": "/assets/loans/topup-loan.png",
+              "icon": "/assets/loans/unsecured-topup-loan.png",
               "features": [
                 "Top-up on existing personal loan",
                 "Faster processing with fewer checks",
@@ -283,7 +283,7 @@
               "title": "Loan Against Gold",
               "slug": "loan-against-gold",
               "description": "Pledge your gold ornaments or assets and avail instant funding for personal needs. Ideal for emergencies, short-term requirements, or working capital.",
-              "icon": "/assets/loans/salary-loan.png",
+              "icon": "/assets/loans/secured-gold-loan.png",
               "features": [
                 "Instant loan against gold jewelry",
                 "High LTV ratio (up to 75%)",
@@ -327,7 +327,7 @@
               "title": "Loan Against Fixed Deposit (FD)",
               "slug": "loan-against-fd",
               "description": "Access immediate liquidity without breaking your FD. Enjoy a loan or overdraft facility at a lower interest rate with your fixed deposit as collateral.",
-              "icon": "/assets/loans/salary-loan.png",
+              "icon": "/assets/loans/secured-loan-against-fixeddeposit.png",
               "features": [
                 "Loan of up to 90–95% of FD value",
                 "Interest rate ~1–2% higher than FD rate",
@@ -371,6 +371,7 @@
               "title": "Loan Against Insurance Policies",
               "slug": "loan-against-insurance",
               "description": "Get access to funds by pledging eligible life insurance or endowment plans. A smart way to leverage your long-term savings for short-term needs.",
+              "icon": "/assets/loans/secured-loan-against-insurance.png",
               "features": [
                 "Loan against surrender value of policies",
                 "Interest charged only on the loan amount used",
@@ -414,7 +415,7 @@
               "title": "Loan Against Property (LAP)",
               "slug": "loan-against-property",
               "description": "Unlock the value of your owned residential or commercial property to meet personal or business financial needs.",
-              "icon": "/assets/loans/salary-loan.png",
+              "icon": "/assets/loans/secured-loan-against-property.png",
               "features": [
                 "High loan amount based on property value",
                 "Lower interest rates than unsecured loans",
@@ -457,7 +458,7 @@
               "title": "Loan Against Securities (LAS)",
               "slug": "loan-against-securities",
               "description": "Leverage your investments without liquidating them. Get instant funds by pledging your shares, mutual funds, bonds, or insurance policies as collateral.",
-              "icon": "/assets/loans/salary-loan.png",
+              "icon": "/assets/loans/secured-loan-against-security.png",
               "features": [
                 "Loan against listed shares, mutual funds, bonds",
                 "Retain ownership and earn returns on securities",
@@ -509,7 +510,7 @@
               "title": "Architect/Engineer Loan",
               "slug": "architect-engineer-loan",
               "description": "Tailor-made loans for architects and engineers to build or scale a design or engineering consultancy, office, or tech infrastructure.",
-              "icon": "/assets/loans/architect-engineer-loan.png",
+              "icon": "/assets/loans/professional-architect-loan.png",
               "features": [
                 "Loan amount up to ₹25–30 lakhs",
                 "For setting up a studio, software, or equipment",
@@ -553,7 +554,7 @@
               "title": "CA/CS Loan",
               "slug": "ca-cs-loan",
               "description": "Finance your professional practice — whether for infrastructure, technology upgrades, or working capital — with loans designed for Chartered Accountants and Company Secretaries.",
-              "icon": "/assets/loans/ca-cs-loan.png",
+              "icon": "/assets/loans/professional-ca-loan.png",
               "features": [
                 "Loan amount up to ₹35–40 lakhs",
                 "Use for office setup, tech tools, staffing",
@@ -597,7 +598,7 @@
               "title": "Doctor Loan",
               "slug": "doctor-loan",
               "description": "Specialised loan for medical professionals to expand clinics, upgrade diagnostic equipment, or manage operational costs. Flexible repayment and high ticket size make it ideal for healthcare entrepreneurs.",
-              "icon": "/assets/loans/doctor-loan.png",
+              "icon": "/assets/loans/professional-doctor-loan.png",
               "features": [
                 "High loan amount up to ₹50 lakhs or more",
                 "Use for clinic expansion, equipment, renovation",
@@ -641,7 +642,7 @@
               "title": "Lawyer Loan",
               "slug": "lawyer-loan",
               "description": "Finance your legal practice — from office renovations to hiring staff or upgrading infrastructure — with this dedicated professional loan for legal practitioners.",
-              "icon": "/assets/loans/lawyer-loan.png",
+              "icon": "/assets/loans/professional-lawyer-loan.png",
               "features": [
                 "Loan amount up to ₹20–25 lakhs",
                 "Ideal for office setup, renovation, or hiring",
@@ -687,13 +688,13 @@
           "name": "Unsecured Business Loan",
           "slug": "unsecured-business-loan",
           "description": "Quick business financing without collateral",
-          "icon": "/assets/unsecured-business.png",
+          "icon": "/assets/loans/unsecuredbusiness-business-loan.png",
           "loans": [
             {
               "title": "Business Expansion Loan",
               "slug": "business-expansion-loan",
               "description": "Ideal for expanding operations — such as opening new branches, boosting production, hiring staff, or scaling marketing.",
-              "icon": "/assets/loans/expansion-loan.png",
+              "icon": "/assets/loans/unsecuredbusiness-business-loan.png",
               "features": [
                 "Unsecured loan up to ₹50 lakhs+",
                 "Tenure up to 5 years",
@@ -737,7 +738,7 @@
               "title": "Merchant Cash Advance",
               "slug": "merchant-cash-advance",
               "description": "Loan linked to monthly debit/credit card or UPI sales. Ideal for retailers, restaurants, or D2C businesses.",
-              "icon": "/assets/loans/merchant-cash-advance.png",
+              "icon": "/assets/loans/unsecuredbusiness-merchant-loan.png",
               "features": [
                 "Disbursal based on 3–6 months’ digital sales",
                 "Daily/weekly repayment from future sales",
@@ -781,7 +782,7 @@
               "title": "MSME / SME Loan",
               "slug": "msme-sme-loan",
               "description": "Collateral-free working capital loan for small and medium enterprises.",
-              "icon": "/assets/loans/msme-loan.png",
+              "icon": "/assets/loans/unsecuredbusiness-msme-loan.png",
               "features": [
                 "Loan range: ₹50,000 to ₹50 lakhs",
                 "No collateral required",
@@ -825,7 +826,7 @@
               "title": "Revolving Line of Credit",
               "slug": "revolving-line-of-credit",
               "description": "Flexible credit limit used on-demand for ongoing business needs like vendor payments, inventory, or payroll.",
-              "icon": "/assets/loans/revolving-credit.png",
+              "icon": "/assets/loans/unsecuredbusiness-loc-loan.png",
               "features": [
                 "Limit: ₹2 lakhs to ₹50 lakhs",
                 "Interest charged only on amount used",
@@ -869,7 +870,7 @@
               "title": "Startup Business Loan",
               "slug": "startup-business-loan",
               "description": "Seed or growth capital for early-stage startups with product-market fit or investor support.",
-              "icon": "/assets/loans/startup-loan.png",
+              "icon": "/assets/loans/unsecuredbusiness-startup-loan.png",
               "features": [
                 "Loan from ₹5 lakhs to ₹1 crore",
                 "Backed by CGTMSE/SIDBI (optional)",
@@ -913,7 +914,7 @@
               "title": "Overdraft Facility (Unsecured)",
               "slug": "overdraft-facility-unsecured",
               "description": "Unsecured overdraft limit for managing daily business cash flow or emergencies.",
-              "icon": "/assets/loans/unsecured-od.png",
+              "icon": "/assets/loans/securedbusiness-import-export.png",
               "features": [
                 "OD limit up to ₹25 lakhs",
                 "Pay interest only on used amount",
@@ -957,7 +958,7 @@
               "title": "Working Capital Loan (Unsecured)",
               "slug": "working-capital-loan-unsecured",
               "description": "Short-term funding to manage operations, inventory, or receivables — no collateral needed.",
-              "icon": "/assets/loans/unsecured-working-capital.png",
+              "icon": "/assets/loans/unsecured-advance-salary-loan.png",
               "features": [
                 "Loan tenure: 3–12 months",
                 "Bullet repayment / EMI / overdraft style",
@@ -1009,7 +1010,7 @@
               "title": "Equipment / Machinery Financing Loan",
               "slug": "equipment-machinery-financing-loan",
               "description": "Finance for new or used machinery, plant equipment, or business-use commercial vehicles.",
-              "icon": "/assets/loans/equipment-loan.png",
+              "icon": "/assets/loans/securedbusiness-machinary-loan.png",
               "features": [
                 "Up to 90–100% of equipment/machinery cost",
                 "Used/new equipment allowed",
@@ -1052,7 +1053,7 @@
               "title": "Export / Import Finance",
               "slug": "export-import-finance",
               "description": "Funding for exporters/importers to manage trade cycles, fulfill purchase orders, or cover customs duties.",
-              "icon": "/assets/loans/export-import-loan.png",
+              "icon": "/assets/loans/securedbusiness-import-export.png",
               "features": [
                 "Pre-shipment or post-shipment credit",
                 "Working capital support in INR or FX",
@@ -1095,7 +1096,7 @@
               "title": "Invoice / Bill Discounting",
               "slug": "invoice-bill-discounting",
               "description": "Short-term funding against unpaid business invoices to improve cash flow.",
-              "icon": "/assets/loans/invoice-loan.png",
+              "icon": "/assets/loans/securedbusiness-invoice.png",
               "features": [
                 "Finance up to 80–90% of invoice value",
                 "Tenure: 30–180 days",
@@ -1138,7 +1139,7 @@
               "title": "Loan Against Commercial Property",
               "slug": "loan-against-commercial-property",
               "description": "Raise capital by pledging owned commercial space — ideal for large business needs.",
-              "icon": "/assets/loans/commercial-property-loan.png",
+              "icon": "/assets/loans/securedbusiness-loan-against-commercial.png",
               "features": [
                 "Loans from ₹25 lakhs to ₹10+ crores",
                 "Tenure up to 10–15 years",
@@ -1181,7 +1182,7 @@
               "title": "Loan Against Property (LAP)",
               "slug": "loan-against-property-lap",
               "description": "Pledge residential or mixed-use property to raise funds for business purposes.",
-              "icon": "/assets/loans/lap-loan.png",
+              "icon": "/assets/loans/secured-loan-against-property.png",
               "features": [
                 "Loan size: ₹10 lakhs to ₹10+ crores",
                 "Tenure up to 15–20 years",
@@ -1224,7 +1225,7 @@
               "title": "Loan Against Securities (LAS)",
               "slug": "loan-against-securities-las",
               "description": "Raise business capital without liquidating shares, mutual funds, or bonds.",
-              "icon": "/assets/loans/las-loan.png",
+              "icon": "/assets/loans/secured-loan-against-security.png",
               "features": [
                 "OD/Term loan against demat assets",
                 "Tenure: 1–3 years",
@@ -1267,7 +1268,7 @@
               "title": "Working Capital Loan (Secured)",
               "slug": "working-capital-loan-secured",
               "description": "Collateral-backed credit for managing day-to-day operational expenses, inventory, and vendor payments.",
-              "icon": "/assets/loans/working-capital-loan.png",
+              "icon": "/assets/loans/securedbusiness-working-capital-loan.png",
               "features": [
                 "Loan amount: ₹5 lakhs to ₹10+ crores",
                 "Tenure: 12 to 60 months",
@@ -1318,7 +1319,7 @@
               "title": "Commercial Vehicle Loan",
               "slug": "commercial-vehicle-loan",
               "description": "Designed for individuals or fleet owners purchasing commercial vehicles such as trucks, tempos, buses, or auto-rickshaws.",
-              "icon": "/assets/loans/commercial-vehicle-loan.png",
+              "icon": "/assets/loans/securedvehicle-commercial-loan.png",
               "features": [
                 "Funding up to 85%–100% of vehicle value",
                 "For new and used commercial vehicles",
@@ -1362,7 +1363,7 @@
               "title": "Electric Vehicle Loan",
               "slug": "electric-vehicle-loan",
               "description": "Get subsidized loans for purchasing electric 2-wheelers, 3-wheelers, or 4-wheelers, supported by government and private schemes.",
-              "icon": "/assets/loans/electric-vehicle-loan.png",
+              "icon": "/assets/loans/securedvehicle-ev.png",
               "features": [
                 "Special EV interest rates starting ~7.5% p.a.",
                 "Eligible for government subsidy under FAME scheme",
@@ -1406,7 +1407,7 @@
               "title": "New Car Loan",
               "slug": "new-car-loan",
               "description": "Finance the purchase of a brand-new car — hatchback, sedan, SUV, or MUV — with attractive interest rates and flexible EMIs.",
-              "icon": "/assets/loans/new-car-loan.png",
+              "icon": "/assets/loans/securedvehicle-car-loan.png",
               "features": [
                 "Funding up to 90%–100% of ex-showroom price",
                 "Tenure from 1 to 7 years",
@@ -1450,7 +1451,7 @@
               "title": "Two-Wheeler Loan",
               "slug": "two-wheeler-loan",
               "description": "Finance the purchase of a scooter, bike, or superbike with easy EMIs and low down payment.",
-              "icon": "/assets/loans/two-wheeler-loan.png",
+              "icon": "/assets/loans/securedvehicle-bike.png",
               "features": [
                 "Up to 90%–100% funding of on-road price",
                 "Loan tenure from 6 months to 5 years",
@@ -1494,7 +1495,7 @@
               "title": "Used Car Loan",
               "slug": "used-car-loan",
               "description": "Buy a pre-owned or second-hand car with flexible funding options and tenure based on vehicle age.",
-              "icon": "/assets/loans/used-car-loan.png",
+              "icon": "/assets/loans/securedvehicle-used-car-loan.png",
               "features": [
                 "Loan up to 70%–90% of car’s valuation",
                 "Tenure up to 5 years",
@@ -1546,7 +1547,7 @@
               "title": "Domestic Education Loan",
               "slug": "domestic-education-loan",
               "description": "Finance your higher education in India — including tuition, books, hostel, and more — with affordable interest rates and flexible repayment terms.",
-              "icon": "/assets/loans/domestic-edu-loan.png",
+              "icon": "/assets/loans/educational-domestic-loan.png",
               "features": [
                 "For graduation, post-graduation, or diploma",
                 "Covers tuition, hostel, books, travel, etc.",
@@ -1589,7 +1590,7 @@
               "title": "Government-Subsidized Education Loan",
               "slug": "government-subsidized-education-loan",
               "description": "Offered under schemes like Vidya Lakshmi and CSIS, these loans provide interest subsidies and support for economically weaker sections.",
-              "icon": "/assets/loans/govt-edu-loan.png",
+              "icon": "/assets/loans/educational-govt-loan.png",
               "features": [
                 "Interest subsidy during study + moratorium",
                 "Available via Vidya Lakshmi Portal",
@@ -1632,7 +1633,7 @@
               "title": "Loan with Moratorium",
               "slug": "loan-with-moratorium",
               "description": "Ideal for students who want to start repaying only after completing their course. Enjoy a stress-free study period.",
-              "icon": "/assets/loans/moratorium-loan.png",
+              "icon": "/assets/loans/educational-moratorium-loan.png",
               "features": [
                 "No EMI during course duration",
                 "6–12 months grace post completion",
@@ -1675,7 +1676,7 @@
               "title": "Overseas Education Loan",
               "slug": "overseas-education-loan",
               "description": "Support your dream to study abroad with funding that covers tuition, airfare, living expenses, and more for global universities.",
-              "icon": "/assets/loans/overseas-edu-loan.png",
+              "icon": "/assets/loans/educational-overseas-loan.png",
               "features": [
                 "Covers tuition, travel, living costs abroad",
                 "Loan up to ₹20–50 lakhs or more",
@@ -1718,7 +1719,7 @@
               "title": "Secured Education Loan",
               "slug": "secured-education-loan",
               "description": "Backed by property, fixed deposits, or securities — these loans offer high funding amounts and lower interest rates for costly courses or overseas education.",
-              "icon": "/assets/loans/secured-edu-loan.png",
+              "icon": "/assets/loans/educational-education-loan.png",
               "features": [
                 "Higher loan amount (₹20–100+ lakhs)",
                 "Lower interest due to collateral",
@@ -1769,7 +1770,7 @@
               "title": "Home Construction Loan",
               "slug": "home-construction-loan",
               "description": "For constructing a new house on a plot of land you already own. Disbursed in stages based on progress.",
-              "icon": "/assets/loans/home-construction-loan.png",
+              "icon": "/assets/loans/housing-construction.png",
               "features": [
                 "For construction on self-owned land",
                 "Loan disbursed in tranches linked to progress",
@@ -1813,7 +1814,7 @@
               "title": "Home Loan Balance Transfer",
               "slug": "home-loan-balance-transfer",
               "description": "Transfer your existing home loan to another lender offering better rates, lower EMIs, or top-up options.",
-              "icon": "/assets/loans/home-balance-transfer.png",
+              "icon": "/assets/loans/unsecured-balance-transfer-loan.png",
               "features": [
                 "Switch to lower interest rate",
                 "Option to combine with a top-up loan",
@@ -1857,7 +1858,7 @@
               "title": "Home Purchase Loan",
               "slug": "home-purchase-loan",
               "description": "Ideal for buying a ready-to-move or under-construction residential property from a builder or developer.",
-              "icon": "/assets/loans/home-purchase-loan.png",
+              "icon": "/assets/loans/housing-home-loan.png",
               "features": [
                 "Funding up to 75%–90% of property cost",
                 "Tenure up to 30 years",
@@ -1901,7 +1902,7 @@
               "title": "Home Renovation Loan",
               "slug": "home-renovation-loan",
               "description": "Finance home improvement needs like repairs, remodeling, painting, flooring, or interiors.",
-              "icon": "/assets/loans/home-renovation-loan.png",
+              "icon": "/assets/loans/housing-renovation-loan.png",
               "features": [
                 "Loan amount up to ₹25–30 lakhs",
                 "Can be secured or unsecured",
@@ -1945,7 +1946,7 @@
               "title": "NRI Home Loan",
               "slug": "nri-home-loan",
               "description": "Designed for Non-Resident Indians (NRIs) looking to invest in residential property in India.",
-              "icon": "/assets/loans/nri-home-loan.png",
+              "icon": "/assets/loans/housing-nri-loan.png",
               "features": [
                 "Tenure up to 20–25 years",
                 "Loan disbursed in INR only",
@@ -1989,7 +1990,7 @@
               "title": "Plot + Construction Loan",
               "slug": "plot-construction-loan",
               "description": "Finance both land purchase and subsequent house construction within a stipulated time (typically 1–2 years).",
-              "icon": "/assets/loans/plot-construction-loan.png",
+              "icon": "/assets/loans/housing-construction-loan.png",
               "features": [
                 "Covers plot purchase and home construction",
                 "Tenure up to 30 years",
@@ -2033,7 +2034,7 @@
               "title": "Top-Up Home Loan",
               "slug": "top-up-home-loan",
               "description": "Get extra funds over your existing home loan without the need for a fresh loan process.",
-              "icon": "/assets/loans/top-up-home-loan.png",
+              "icon": "/assets/loans/secured-loan-against-fixeddeposit.png",
               "features": [
                 "Lower rate than personal loans",
                 "Use for personal, medical, education, or renovation",
