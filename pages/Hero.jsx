@@ -1,5 +1,6 @@
 import ServicesWeOffer from "../components/ServicesWeOffer";
 import WhyChooseUs from "../components/WhyChooseUs";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -20,11 +21,13 @@ export default function Hero() {
           className="mx-auto w-44 sm:w-56 md:w-84 mb-2 drop-shadow-2xl"
           draggable={false}
         />
-        <button
+        <Link href='#footer'>
+          <button
           className="font-roboto bg-[#233827] text-white px-8 py-3 rounded border border-gray-200 hover:bg-[#274e32] transition-all text-lg font-medium shadow"
         >
           Ask Experts
         </button>
+        </Link>
       </div>
     </section>
     <ServicesWeOffer/>
