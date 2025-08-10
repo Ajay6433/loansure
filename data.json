@@ -3855,7 +3855,7 @@
               "title": "Wallet-Enabled & Loyalty Program POS",
               "slug": "wallet-loyalty-pos",
               "description": "POS terminals that support mobile wallet payments and integrate with loyalty rewards systems.",
-              "icon": "/assets/payments/pos-wallet.png",
+              "icon": "/assets/payments/post-wallet.png",
               "features": [
                 "Accepts wallets: Paytm, PhonePe, Mobikwik, etc.",
                 "Loyalty points integration with CRM or third-party apps",
