@@ -12,10 +12,10 @@ export default function Navbar() {
 
   // Menus: first 2 = 11 sublinks, rest = 5
   const menus = [
+    { label: 'Payments', href: '/payments' },
     { label: 'Loans', href: '/loans' },
     { label: 'Insurance', href: '/insurance' },
     { label: 'Cards', href: '/cards' },
-    { label: 'Payments', href: '/payments' },
   ];
 
   function handleNavClick(idx: number) {
@@ -62,7 +62,7 @@ export default function Navbar() {
         </div>
 
         {/* Contact CTA (Desktop) */}
-        <Link href="#footer" className="hidden md:block z-20">
+        <Link href="/contact" className="hidden md:block z-20">
           <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded transition">
             Contact Us
           </button>

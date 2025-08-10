@@ -10,7 +10,7 @@ export default function WhyChooseUs() {
         Your Financial Journey, Simplified
       </h3>
       <p className="text-center text-base md:text-lg text-gray-700 font-roboto mb-10">
-        At LoanSure CardsPe, we simplify financial access for individuals, professionals, and businesses across India.
+        At Pay FintechBazaar, we simplify financial access for individuals, professionals, and businesses across India.
       </p>
 
       <div className="flex flex-col md:flex-row items-stretch justify-center gap-6">
