@@ -1,6 +1,54 @@
 'use client';
 
 import { MdOutlineCall, MdOutlineMail, MdOutlineLocationOn } from 'react-icons/md';
+import { useState } from 'react';
+
+function ContactForm() {
+  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setStatus('submitting');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (res.ok) {
+        setStatus('success');
+        setForm({ name: '', email: '', subject: '', message: '' });
+      } else {
+        throw new Error('Failed');
+      }
+    } catch (err) {
+      console.error(err);
+      setStatus('error');
+    }
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const { name, value } = e.target;
+    setForm(prev => ({ ...prev, [name]: value }));
+  }
+
+  return (
+    <form className="space-y-4" onSubmit={handleSubmit}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" name="name" placeholder="Your Name" value={form.name} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
+        <input type="email" name="email" placeholder="Your Email" value={form.email} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
+      </div>
+      <input type="text" name="subject" placeholder="Subject" value={form.subject} onChange={handleChange} className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500" />
+      <textarea name="message" placeholder="Your Message" rows={5} value={form.message} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500"></textarea>
+      <button type="submit" disabled={status==='submitting'} className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded transition disabled:opacity-60">
+        {status==='submitting' ? 'Sending...' : 'Send Message'}
+      </button>
+      {status==='success' && <p className="text-green-600">Message sent successfully!</p>}
+      {status==='error' && <p className="text-red-600">Something went wrong. Please try again.</p>}
+    </form>
+  );
+}
 
 export default function ContactPage() {
   return (
@@ -53,15 +101,7 @@ export default function ContactPage() {
         {/* Form */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
-          <form className="space-y-4" action="mailto:admin@payfintechbazaar.com" method="POST" encType="text/plain">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input type="text" name="name" placeholder="Your Name" required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
-              <input type="email" name="email" placeholder="Your Email" required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
-            </div>
-            <input type="text" name="subject" placeholder="Subject" className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500" />
-            <textarea name="message" placeholder="Your Message" rows={5} required className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500"></textarea>
-            <button type="submit" className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded transition">Send Message</button>
-          </form>
+          <ContactForm />
         </div>
       </section>
     </>
