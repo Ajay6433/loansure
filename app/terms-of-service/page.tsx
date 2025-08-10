@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | LoanSure CardsPe',
-  description: 'Terms and Conditions for use of LoanSure CardsPe platform',
+  title: 'Terms & Conditions | Pay FintechBazaar',
+  description: 'Terms and Conditions for use of Pay FintechBazaar platform',
 };
 
 export default function TermsConditionsPage() {

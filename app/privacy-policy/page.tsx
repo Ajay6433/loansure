@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | LoanSure CardsPe',
-  description: 'Privacy Policy for LoanSure CardsPe',
+  title: 'Privacy Policy | Pay FintechBazaar',
+  description: 'Privacy Policy for Pay FintechBazaar',
 };
 
 export default function PrivacyPolicyPage() {

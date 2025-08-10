@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col items-center w-full md:w-1/3">
           <Image
             src="/assets/Logo.png"
-            alt="LoanSure CardsPe Logo"
+            alt="Pay FintechBazaar Logo"
             width={84}
             height={84}
           />
@@ -47,7 +47,7 @@ export default function Footer() {
 
       {/* Footer Links */}
       <div className="text-xs text-center text-gray-400 border-t border-[#242446] mt-6 pt-3 pb-1 space-x-2">
-        <span>© 2025 Loansure CardSpe All rights reserved.</span>
+        <span>© 2025 Pay FintechBazaar All rights reserved.</span>
         <span>|</span>
         <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
         <span>|</span>

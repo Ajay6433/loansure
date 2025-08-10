@@ -47,7 +47,7 @@ export default function WhyChooseUs() {
             100% digital onboarding with transparent processes
           </h4>
           <p className="text-gray-600 text-sm md:text-base font-roboto">
-            Whether you&apos;re planning your next big move, securing your family&apos;s future, or growing your business &mdash; LoanSure CardsPe OPC Pvt Ltd is here to help you move forward with confidence.
+            Whether you&apos;re planning your next big move, securing your family&apos;s future, or growing your business &mdash; Pay FintechBazaar OPC Pvt Ltd is here to help you move forward with confidence.
           </p>
         </div>
       </div>
