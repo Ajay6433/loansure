@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import CategoryBar from "../components/CategoryBar";
 import Footer from "../components/Footer";
+import LoanCalculatorWidget from "../components/LoanCalculatorWidget";
 
 // Load Roboto (sans-serif)
 const roboto = Roboto({
@@ -39,6 +40,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <LoanCalculatorWidget />
       </body>
     </html>
   );

@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex flex-col items-center w-full md:w-1/3">
           <Image
-            src="/assets/Logo.png"
+            src="/logo.png"
             alt="Pay FintechBazaar Logo"
             width={84}
             height={84}

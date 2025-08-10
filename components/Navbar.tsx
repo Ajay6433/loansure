@@ -37,9 +37,9 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center space-x-4 relative z-20" onClick={() => router.push('/')}>
           <img
-            src="/assets/Logo.png"
+            src="/logo.png"
             alt="Logo"
-            className="w-[154px] h-[133px] -mb-7 p-4"
+            className="w-[154px] h-[100px] -mb-7 p-4"
           />
         </div>
 

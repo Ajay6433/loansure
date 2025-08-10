@@ -3982,51 +3982,8 @@
                   ]
                 }
               ]
-            },
-            {
-              "title": "Vendor Payment POS System",
-              "slug": "vendor-payment-pos",
-              "description": "Enable vendor/supplier payouts from POS terminals with compliance and reconciliation tools.",
-              "icon": "/assets/payments/pos-pos.png",
-              "features": [
-                "Bulk vendor payments via IMPS, NEFT, RTGS, UPI",
-                "Set payout cycles, manage TDS/GST compliance",
-                "Real-time tracking, downloadable reports",
-                "Minimizes manual errors & delays"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Bulk vendor payments via IMPS, NEFT, RTGS, UPI",
-                    "Set payout cycles, manage TDS/GST compliance",
-                    "Real-time tracking, downloadable reports",
-                    "Minimizes manual errors & delays"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Corporates, aggregators, marketplaces, MSMEs",
-                    "Must have invoice & business account",
-                    "Works with ERP/accounting tools",
-                    "Setup for alerts, multi-level approvals"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirements",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Business PAN, Authorized Signatory ID",
-                    "GST Certificate / Business License",
-                    "Bank Details: Cancelled Cheque",
-                    "NDA or custom API agreement (if applicable)"
-                  ]
-                }
-              ]
             }
+            
           ]
         },
         {
