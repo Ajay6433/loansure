@@ -2,13 +2,14 @@
 import Link from 'next/link';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<boolean>(false);
 
   const router = useRouter();
+  const pathname = usePathname();
 
   // Menus: first 2 = 11 sublinks, rest = 5
   const menus = [
@@ -55,8 +56,19 @@ export default function Navbar() {
         {/* Desktop Navlinks */}
         <div className="hidden md:flex items-center space-x-6 flex-1 justify-center">
           {menus.map(menu => (
-            <Link key={menu.label} href={menu.href} className="text-gray-800 font-medium px-4 py-2 rounded hover:text-[#64b35d] transition-colors">
+            <Link 
+              key={menu.label} 
+              href={menu.href} 
+              className={`relative font-medium px-4 py-2 transition-colors ${
+                pathname === menu.href || (pathname && pathname.startsWith(menu.href + '/'))
+                  ? 'text-[#64b35d]' 
+                  : 'text-gray-800 hover:text-[#64b35d]'
+              }`}
+            >
               {menu.label}
+              {(pathname === menu.href || (pathname && pathname.startsWith(menu.href + '/'))) && (
+                <div className="absolute bottom-0 left-0 w-full h-0.5 bg-[#64b35d] animate-underline"></div>
+              )}
             </Link>
           ))}
         </div>
@@ -92,6 +104,23 @@ export default function Navbar() {
       {/* Subnavbar removed as category pills are now handled inside each page */}
 
       {/* No spacer div here – sub-navbar overlaps the hero/content below */}
+      
+      <style jsx>{`
+        @keyframes underline {
+          0% {
+            transform: scaleX(0);
+            opacity: 0;
+          }
+          100% {
+            transform: scaleX(1);
+            opacity: 1;
+          }
+        }
+        
+        .animate-underline {
+          animation: underline 0.3s ease-out forwards;
+        }
+      `}</style>
     </div>
   );
 }
