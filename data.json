@@ -778,50 +778,7 @@
                 }
               ]
             },
-            {
-              "title": "MSME / SME Loan",
-              "slug": "msme-sme-loan",
-              "description": "Collateral-free working capital loan for small and medium enterprises.",
-              "icon": "/assets/loans/unsecuredbusiness-msme-loan.png",
-              "features": [
-                "Loan range: ₹50,000 to ₹50 lakhs",
-                "No collateral required",
-                "Tenure up to 5 years",
-                "Subsidy schemes available (e.g., CGTMSE)"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Loan range: ₹50,000 to ₹50 lakhs",
-                    "No collateral required",
-                    "Tenure up to 5 years",
-                    "Subsidy schemes available (e.g., CGTMSE)"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "MSMEs with 1+ year operations",
-                    "Turnover > ₹10 lakhs preferred",
-                    "Sole prop / LLP / Pvt Ltd firms",
-                    "Good CIBIL / CRIF score"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "Udyam/MSME Certificate",
-                    "KYC & Business Proof",
-                    "Bank Statements (6–12 months)",
-                    "GST / ITR / Financial Statements"
-                  ]
-                }
-              ]
-            },
+          
             {
               "title": "Revolving Line of Credit",
               "slug": "revolving-line-of-credit",
@@ -1135,49 +1092,7 @@
                 }
               ]
             },
-            {
-              "title": "Loan Against Commercial Property",
-              "slug": "loan-against-commercial-property",
-              "description": "Raise capital by pledging owned commercial space — ideal for large business needs.",
-              "icon": "/assets/loans/securedbusiness-loan-against-commercial.png",
-              "features": [
-                "Loans from ₹25 lakhs to ₹10+ crores",
-                "Tenure up to 10–15 years",
-                "Lower interest than unsecured loans",
-                "No business disruption during loan"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Loan against owned commercial property",
-                    "Large ticket funding up to ₹10+ crores",
-                    "Long repayment tenure (10–15 years)"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Self-employed or business owners",
-                    "Clear property title",
-                    "Steady business income preferred",
-                    "Age 21–65 years"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC of Business & Owners",
-                    "Property Papers (Title Deed, Tax Receipts)",
-                    "ITRs, GST Returns, Balance Sheets",
-                    "Bank Statements (6–12 months)"
-                  ]
-                }
-              ]
-            },
+            
             {
               "title": "Loan Against Property (LAP)",
               "slug": "loan-against-property-lap",
@@ -1310,8 +1225,8 @@
           ]
         },
         {
-          "name": "Secured Vehicle Loan",
-          "slug": "secured-vehicle-loan",
+          "name": "Vehicle Loan",
+          "slug": "vehicle-loan",
           "description": "Drive your dreams with easy vehicle financing",
           "icon": "/assets/vehicle-loan.png",
           "loans": [
@@ -1942,50 +1857,7 @@
                 }
               ]
             },
-            {
-              "title": "NRI Home Loan",
-              "slug": "nri-home-loan",
-              "description": "Designed for Non-Resident Indians (NRIs) looking to invest in residential property in India.",
-              "icon": "/assets/loans/housing-nri-loan.png",
-              "features": [
-                "Tenure up to 20–25 years",
-                "Loan disbursed in INR only",
-                "Power of Attorney may be required",
-                "Supports ready or under-construction property"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "For buying under-construction or ready property",
-                    "Tenure up to 20–25 years",
-                    "Loan disbursed in INR only",
-                    "Power of Attorney may be required"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "NRI with valid passport, work visa, overseas income",
-                    "Minimum 1–2 years work experience abroad",
-                    "Age: 21–60 years",
-                    "Good credit history (in India or abroad)"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC Documents: Indian & Foreign Passport copies",
-                    "Employment/Salary Proof (Foreign)",
-                    "NRE/NRO Bank Statements (last 6 months)",
-                    "Property Documents + Allotment Letter"
-                  ]
-                }
-              ]
-            },
+            
             {
               "title": "Plot + Construction Loan",
               "slug": "plot-construction-loan",
@@ -2519,8 +2391,8 @@
       "icon": "/assets/insurance.png",
       "categories": [
         {
-          "name": "Personal Accident Insurance",
-          "slug": "personal-accident",
+          "name": "Accident Insurance",
+          "slug": "accident-insurance",
           "description": "Covers life-altering health events and accidents with lump sum payouts, disability compensation, and global protection.",
           "icon": "/assets/insurance/critical-illness.png",
           "loans": [
@@ -2887,40 +2759,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "title": "Top-Up/Super Top-Up Plans",
-              "slug": "top-up-super-top-up-plans",
-              "description": "Provides extra health insurance coverage after a threshold (deductible) is crossed, ideal as cost-effective backup.",
-              "icon": "/assets/insurance/investment-savings.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Adds to existing health cover with higher limits",
-                    "Kicks in only after base deductible is exhausted",
-                    "More affordable than increasing sum insured in base policy"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Individuals aged 18–65 years",
-                    "Must have base plan (not mandatory for all)"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Existing Policy Copy (if applicable)",
-                    "Address Proof"
-                  ]
-                }
-              ]
             }
           ]
         },
@@ -3031,41 +2869,8 @@
                   ]
                 }
               ]
-            },
-            {
-              "title": "Wealth Creation Plans",
-              "slug": "wealth-creation-plans",
-              "description": "Insurance plans focused on building long-term wealth with flexibility in investments and premium payments.",
-              "icon": "/assets/insurance/investment-wealth.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Focus on high returns over the long term",
-                    "Linked to market performance (ULIP type)",
-                    "Fund switch, top-up, and withdrawal flexibility"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Individuals aged 18–55 years",
-                    "Ideal for HNIs or long-term investors"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof: Salary Slips / ITRs"
-                  ]
-                }
-              ]
             }
+            
           ]
         },
         {
@@ -3109,40 +2914,7 @@
                 }
               ]
             },
-            {
-              "title": "Endowment Plans",
-              "slug": "endowment-plans",
-              "description": "Offers life insurance along with a lump sum payout on maturity. Ideal for saving for future goals.",
-              "icon": "/assets/insurance/life-endowment.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Combines insurance and savings",
-                    "Guaranteed maturity benefit if policyholder survives term",
-                    "Bonus/additional returns may be included"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian residents aged 18–60 years",
-                    "Salaried/self-employed"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof (if applicable)"
-                  ]
-                }
-              ]
-            },
+            
             {
               "title": "Retirement & Pension Plans",
               "slug": "retirement-pension-plans",
@@ -3555,41 +3327,7 @@
           "icon": "/assets/insurance/travel.png",
           "description": "Stay protected during your travels — domestic or international — with coverage for medical emergencies, cancellations, and lost baggage.",
           "loans": [
-            {
-              "title": "Business Travel Insurance",
-              "slug": "business-travel-insurance",
-              "description": "Covers frequent international business travellers against trip-related risks like cancellation, illness, and loss of documents.",
-              "icon": "/assets/loans/educational-overseas-loan.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Single/multi-trip coverage for corporate employees",
-                    "Medical cover, baggage loss, trip delay, passport loss",
-                    "Cost-effective for frequent travellers"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Employees or directors of Indian firms",
-                    "Travel for work purposes only",
-                    "Valid passport and visa required"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Company ID / Authorization Letter",
-                    "Passport, Travel Tickets"
-                  ]
-                }
-              ]
-            },
+            
             {
               "title": "Domestic Travel Insurance",
               "slug": "domestic-travel-insurance",
