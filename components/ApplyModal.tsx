@@ -41,12 +41,38 @@ export default function ApplyModal({ category, subCategory }: Props) {
     }
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     // TODO: replace with real API call
     console.log({ ...form, category, subCategory });
-    alert('Application submitted!');
-    setOpen(false);
+    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxTP7ZS1fJNdWcoAon3AKsS1FWVtHO27EZwWNnlBjZqImVXhffCEfS06phULE2xQwi0/exec";
+    try {
+        const formData = new FormData();
+        formData.append('fullName', form.fullName);
+        formData.append('phone', form.phone);
+        formData.append('email', form.email);
+        formData.append('state', form.state);
+        formData.append('city', form.city);
+        formData.append('organization', form.organization);
+        formData.append('additional', form.additional);
+        formData.append('category', category);
+        formData.append('subCategory', subCategory);
+        formData.append('status', 'pending');
+
+        console.log(formData);
+      const res = await fetch(GOOGLE_APP_SCRIPT_URL, {
+        method: 'POST',
+          body: formData,
+      });
+      console.log(res);
+      if (res.ok) {
+        setOpen(false);
+      } else {
+        throw new Error('Failed');
+      }
+    } catch (err) {
+      console.error(err);
+    }
   }
 
   const states = [

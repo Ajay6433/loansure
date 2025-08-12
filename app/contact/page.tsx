@@ -10,12 +10,19 @@ function ContactForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setStatus('submitting');
+    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby4xy1wqXxH-hK6vVSaIoEWyZFKBjve0h1Bpa_FlxbxSkLCGfbrIyEa9AUoZY6AEjF-/exec";
     try {
-      const res = await fetch('/api/contact', {
+        const formData = new FormData();
+        formData.append('name', form.name);
+        formData.append('email', form.email);
+        formData.append('subject', form.subject);
+        formData.append('message', form.message);
+        console.log(formData);
+      const res = await fetch(GOOGLE_APP_SCRIPT_URL, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+          body: formData,
       });
+      console.log(res);
       if (res.ok) {
         setStatus('success');
         setForm({ name: '', email: '', subject: '', message: '' });
