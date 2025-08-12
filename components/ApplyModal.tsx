@@ -47,7 +47,7 @@ export default function ApplyModal({ category, subCategory }: Props) {
     setStatus('submitting');
     // TODO: replace with real API call
     console.log({ ...form, category, subCategory });
-    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxTP7ZS1fJNdWcoAon3AKsS1FWVtHO27EZwWNnlBjZqImVXhffCEfS06phULE2xQwi0/exec";
+    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz7UkMkWRvjatfHwQj27KszFWEmTSuSxlSuLDesldQYns_Zu_9sAr4rw9S4Fya2DNbg/exec";
     try {
         const formData = new FormData();
         formData.append('fullName', form.fullName);

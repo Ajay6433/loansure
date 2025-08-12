@@ -10,7 +10,7 @@ function ContactForm() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setStatus('submitting');
-    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby4xy1wqXxH-hK6vVSaIoEWyZFKBjve0h1Bpa_FlxbxSkLCGfbrIyEa9AUoZY6AEjF-/exec";
+    const GOOGLE_APP_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyRqXpbnYVHZs_DNI8CyszQl8czgowol6UZUHaKIU--VysabmRETQQyVHU8MICpx6b_8Q/exec";
     try {
         const formData = new FormData();
         formData.append('name', form.name);

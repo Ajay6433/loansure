@@ -14,8 +14,8 @@ export default function Navbar() {
   // Menus: first 2 = 11 sublinks, rest = 5
   const menus = [
     { label: 'Payments', href: '/payments' },
-    { label: 'Loans', href: '/loans' },
     { label: 'Insurance', href: '/insurance' },
+    { label: 'Loans', href: '/loans' },
     { label: 'Cards', href: '/cards' },
   ];
 
