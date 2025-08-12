@@ -9,10 +9,11 @@ export default function Footer() {
         {/* Logo */}
         <div className="flex flex-col items-center w-full md:w-1/3">
           <Image
-            src="/logo.png"
+            src="/logo-light.png"
             alt="Pay FintechBazaar Logo"
-            width={84}
-            height={84}
+            width={170}
+            height={100}
+            className="object-contain w-[170px] h-[100px]"
           />
         </div>
 
