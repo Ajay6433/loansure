@@ -14,28 +14,36 @@ export const contentType = 'image/png'
 export default function AppleIcon() {
   return new ImageResponse(
     (
-      // ImageResponse JSX element
       <div
         style={{
-          fontSize: 120,
-          background: 'linear-gradient(to bottom, #64b35d, #4f9b4d)',
+          background: 'black',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
-          fontWeight: 'bold',
           borderRadius: '22px',
         }}
       >
-        P
+        <div
+          style={{
+            width: '120px',
+            height: '120px',
+            background: '#00d4aa',
+            borderRadius: '16px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontWeight: 'bold',
+            color: 'white',
+            fontSize: '48px',
+          }}
+        >
+          PB
+        </div>
       </div>
     ),
-    // ImageResponse options
     {
-      // For convenience, we can re-use the exported icons size metadata
-      // config to also set the ImageResponse's width and height.
       ...size,
     }
   )

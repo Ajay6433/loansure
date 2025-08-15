@@ -35,7 +35,7 @@ export default function Icon() {
             justifyContent: 'center',
             fontWeight: 'bold',
             color: 'white',
-            fontSize: '16px',
+            fontSize: '12px',
           }}
         >
           PB

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaLinkedinIn, FaXTwitter, FaFacebookF } from 'react-icons/fa6';
+import { FaLinkedinIn, FaInstagram, FaFacebookF } from 'react-icons/fa6';
 import { MdOutlineMail, MdOutlineCall } from 'react-icons/md';
 
 export default function Footer() {
@@ -24,8 +24,8 @@ export default function Footer() {
             <a href="#" className="p-2 rounded-full bg-[#18183a] hover:bg-white hover:text-[#233827] transition" aria-label="LinkedIn">
               <FaLinkedinIn size={20} />
             </a>
-            <a href="#" className="p-2 rounded-full bg-[#18183a] hover:bg-white hover:text-[#233827] transition" aria-label="X (Twitter)">
-              <FaXTwitter size={20} />
+            <a href="#" className="p-2 rounded-full bg-[#18183a] hover:bg-white hover:text-[#233827] transition" aria-label="Instagram">
+              <FaInstagram size={20} />
             </a>
             <a href="#" className="p-2 rounded-full bg-[#18183a] hover:bg-white hover:text-[#233827] transition" aria-label="Facebook">
               <FaFacebookF size={20} />
