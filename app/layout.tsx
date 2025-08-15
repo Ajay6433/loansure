@@ -24,6 +24,11 @@ const robotoSlab = Roboto_Slab({
 export const metadata: Metadata = {
   title: "Pay FintechBazaar",
   description: "At Pay FintechBazaar, we simplify financial access for individuals, professionals, and businesses across India. Whether you're looking to get a loan, choose the right insurance, apply for a credit card, or set up digital payments, we've got you covered — all under one roof.",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
