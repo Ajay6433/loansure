@@ -132,12 +132,7 @@ export default function ApplyModal({ category, subCategory }: Props) {
         >
           &times;
         </button>
-        <h2 className="text-2xl font-semibold text-center mb-6">Apply for a Loan or Card</h2>
-        
-        {/* Debug Status */}
-        <div className="text-xs text-gray-500 mb-2 text-center">
-          Current Status: {status}
-        </div>
+        <h2 className="text-2xl font-semibold text-center mb-6">Apply Now</h2>
         
         {/* Success Message */}
         {status === 'success' && (
