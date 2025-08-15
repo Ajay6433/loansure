@@ -4,7 +4,7 @@ import { MdOutlineCall, MdOutlineMail, MdOutlineLocationOn } from 'react-icons/m
 import { useState } from 'react';
 
 function ContactForm() {
-  const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', phone: '', subject: '', message: '' });
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   async function handleSubmit(e: React.FormEvent) {
@@ -15,6 +15,7 @@ function ContactForm() {
         const formData = new FormData();
         formData.append('name', form.name);
         formData.append('email', form.email);
+        formData.append('phone', form.phone);
         formData.append('subject', form.subject);
         formData.append('message', form.message);
         console.log(formData);
@@ -25,7 +26,7 @@ function ContactForm() {
       console.log(res);
       if (res.ok) {
         setStatus('success');
-        setForm({ name: '', email: '', subject: '', message: '' });
+        setForm({ name: '', email: '', phone: '', subject: '', message: '' });
       } else {
         throw new Error('Failed');
       }
@@ -46,6 +47,7 @@ function ContactForm() {
         <input type="text" name="name" placeholder="Your Name" value={form.name} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
         <input type="email" name="email" placeholder="Your Email" value={form.email} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 focus:outline-none focus:border-green-500" />
       </div>
+      <input type="tel" name="phone" placeholder="Your Phone Number" value={form.phone} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500" />
       <input type="text" name="subject" placeholder="Subject" value={form.subject} onChange={handleChange} className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500" />
       <textarea name="message" placeholder="Your Message" rows={5} value={form.message} onChange={handleChange} required className="border border-gray-300 rounded px-4 py-2 w-full focus:outline-none focus:border-green-500"></textarea>
       <button type="submit" disabled={status==='submitting'} className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded transition disabled:opacity-60">

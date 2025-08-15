@@ -91,9 +91,35 @@ export default function ApplyModal({ category, subCategory }: Props) {
   }
 
   const states = [
-    { name: "Delhi", cities: ["New Delhi"] },
-    { name: "Maharashtra", cities: ["Mumbai", "Pune"] },
-    { name: "Karnataka", cities: ["Bengaluru", "Mysuru"] },
+    { name: "Andhra Pradesh", cities: ["Visakhapatnam", "Vijayawada", "Guntur", "Nellore", "Kurnool", "Kadapa", "Anantapur", "Kakinada", "Tirupati", "Rajahmundry"] },
+    { name: "Arunachal Pradesh", cities: ["Itanagar", "Naharlagun", "Pasighat", "Bomdila", "Tawang", "Ziro", "Along", "Tezu", "Roing", "Khonsa"] },
+    { name: "Assam", cities: ["Guwahati", "Silchar", "Dibrugarh", "Jorhat", "Nagaon", "Tinsukia", "Tezpur", "Bongaigaon", "Dhubri", "Goalpara"] },
+    { name: "Bihar", cities: ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur", "Purnia", "Darbhanga", "Arrah", "Begusarai", "Katihar", "Munger"] },
+    { name: "Chhattisgarh", cities: ["Raipur", "Bhilai", "Bilaspur", "Korba", "Durg", "Rajnandgaon", "Jagdalpur", "Ambikapur", "Mahasamund", "Dhamtari"] },
+    { name: "Delhi", cities: ["New Delhi", "North Delhi", "South Delhi", "East Delhi", "West Delhi", "Central Delhi", "Shahdara", "Dwarka", "Rohini", "Pitampura"] },
+    { name: "Goa", cities: ["Panaji", "Margao", "Vasco da Gama", "Mapusa", "Ponda", "Mormugao", "Bicholim", "Sanquelim", "Valpoi", "Sanguem"] },
+    { name: "Gujarat", cities: ["Ahmedabad", "Surat", "Vadodara", "Rajkot", "Bhavnagar", "Jamnagar", "Junagadh", "Anand", "Bharuch", "Gandhinagar"] },
+    { name: "Haryana", cities: ["Gurgaon", "Faridabad", "Panipat", "Yamunanagar", "Rohtak", "Hisar", "Karnal", "Sonipat", "Panchkula", "Ambala"] },
+    { name: "Himachal Pradesh", cities: ["Shimla", "Mandi", "Solan", "Kullu", "Dharamshala", "Kangra", "Hamirpur", "Una", "Bilaspur", "Chamba"] },
+    { name: "Jharkhand", cities: ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro", "Deoghar", "Hazaribagh", "Giridih", "Ramgarh", "Medininagar", "Chatra"] },
+    { name: "Karnataka", cities: ["Bengaluru", "Mysuru", "Hubballi", "Mangaluru", "Belagavi", "Davanagere", "Ballari", "Vijayapura", "Shivamogga", "Tumakuru"] },
+    { name: "Kerala", cities: ["Thiruvananthapuram", "Kochi", "Kozhikode", "Thrissur", "Palakkad", "Kollam", "Alappuzha", "Kannur", "Kottayam", "Pathanamthitta"] },
+    { name: "Madhya Pradesh", cities: ["Bhopal", "Indore", "Jabalpur", "Gwalior", "Ujjain", "Sagar", "Dewas", "Satna", "Ratlam", "Rewa"] },
+    { name: "Maharashtra", cities: ["Mumbai", "Pune", "Nagpur", "Thane", "Nashik", "Aurangabad", "Solapur", "Kolhapur", "Amravati", "Nanded"] },
+    { name: "Manipur", cities: ["Imphal", "Thoubal", "Bishnupur", "Churachandpur", "Senapati", "Ukhrul", "Chandel", "Tamenglong", "Jiribam", "Kakching"] },
+    { name: "Meghalaya", cities: ["Shillong", "Tura", "Jowai", "Nongstoin", "Williamnagar", "Baghmara", "Resubelpara", "Mairang", "Mawkyrwat", "Nongpoh"] },
+    { name: "Mizoram", cities: ["Aizawl", "Lunglei", "Saiha", "Champhai", "Kolasib", "Serchhip", "Mamit", "Saitual", "Khawzawl", "Hnahthial"] },
+    { name: "Nagaland", cities: ["Kohima", "Dimapur", "Mokokchung", "Tuensang", "Wokha", "Zunheboto", "Phek", "Longleng", "Kiphire", "Peren"] },
+    { name: "Odisha", cities: ["Bhubaneswar", "Cuttack", "Rourkela", "Brahmapur", "Sambalpur", "Puri", "Balasore", "Bhadrak", "Baripada", "Jharsuguda"] },
+    { name: "Punjab", cities: ["Ludhiana", "Amritsar", "Jalandhar", "Patiala", "Bathinda", "Hoshiarpur", "Moga", "Mohali", "Firozpur", "Kapurthala"] },
+    { name: "Rajasthan", cities: ["Jaipur", "Jodhpur", "Kota", "Bikaner", "Ajmer", "Udaipur", "Bhilwara", "Alwar", "Sri Ganganagar", "Sikar"] },
+    { name: "Sikkim", cities: ["Gangtok", "Namchi", "Mangan", "Gyalshing", "Ravongla", "Lachung", "Pelling", "Yuksom", "Rumtek", "Rangpo"] },
+    { name: "Tamil Nadu", cities: ["Chennai", "Coimbatore", "Madurai", "Salem", "Tiruchirappalli", "Vellore", "Erode", "Tiruppur", "Thoothukkudi", "Dindigul"] },
+    { name: "Telangana", cities: ["Hyderabad", "Warangal", "Karimnagar", "Nizamabad", "Khammam", "Adilabad", "Nalgonda", "Mahbubnagar", "Medak", "Siddipet"] },
+    { name: "Tripura", cities: ["Agartala", "Udaipur", "Dharmanagar", "Kailasahar", "Belonia", "Khowai", "Teliamura", "Amarpur", "Sabroom", "Jirania"] },
+    { name: "Uttar Pradesh", cities: ["Lucknow", "Kanpur", "Ghaziabad", "Agra", "Varanasi", "Meerut", "Allahabad", "Bareilly", "Aligarh", "Moradabad"] },
+    { name: "Uttarakhand", cities: ["Dehradun", "Haridwar", "Roorkee", "Haldwani", "Rudrapur", "Kashipur", "Rishikesh", "Kotdwar", "Ramnagar", "Pithoragarh"] },
+    { name: "West Bengal", cities: ["Kolkata", "Howrah", "Durgapur", "Asansol", "Siliguri", "Bardhaman", "Malda", "Baharampur", "Habra", "Kharagpur"] }
   ];
 
   const modalContent = (
