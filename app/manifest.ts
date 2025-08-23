@@ -9,17 +9,20 @@ export default function manifest(): MetadataRoute.Manifest {
     display: 'standalone',
     background_color: '#ffffff',
     theme_color: '#64b35d',
+    orientation: 'any',
     icons: [
-      {
-        src: '/icon',
-        sizes: '32x32',
-        type: 'image/png',
-      },
-      {
-        src: '/apple-icon',
-        sizes: '180x180',
-        type: 'image/png',
-      },
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "/icon512_maskable.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "src": "/icon512_rounded.png",
+            "type": "image/png"
+        }
     ],
   }
 } 
