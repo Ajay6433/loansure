@@ -7,8 +7,8 @@
       "icon": "/assets/loan.png",
       "categories": [
         {
-          "name": "Unsecured Personal Loan",
-          "slug": "unsecured-personal-loan",
+          "name": "Personal Loan",
+          "slug": "personal-loan",
           "description": "Quick personal loans without collateral requirements",
           "icon": "/assets/categtories/unsecured-personal-loan.png",
           "loans": [
@@ -274,8 +274,8 @@
           ]
         },
         {
-          "name": "Secured Personal Loan",
-          "slug": "secured-personal-loan",
+          "name": "Loan Against Securities (LAS)",
+          "slug": "loan-against-securities-LAS",
           "description": "Loans backed by collateral such as gold, FDs, insurance policies, or property, offering lower interest rates and higher approval chances.",
           "icon": "/assets/loans/secured-personal-loan.png",
           "loans": [
@@ -685,8 +685,8 @@
           ]
         },
         {
-          "name": "Unsecured Business Loan",
-          "slug": "unsecured-business-loan",
+          "name": "Business Loan",
+          "slug": "business-loan",
           "description": "Quick business financing without collateral",
           "icon": "/assets/loans/unsecuredbusiness-business-loan.png",
           "loans": [
@@ -958,8 +958,8 @@
           ]
         },
         {
-          "name": "Secured Business Loan",
-          "slug": "secured-business-loan",
+          "name": "Loan Against Property",
+          "slug": "loan-against-property",
           "description": "Grow your business with collateral-backed financing",
           "icon": "/assets/business-loan.png",
           "loans": [
@@ -1137,8 +1137,8 @@
               ]
             },
             {
-              "title": "Loan Against Securities (LAS)",
-              "slug": "loan-against-securities-las",
+              "title": "Loan Against Securities",
+              "slug": "loan-against-securities",
               "description": "Raise business capital without liquidating shares, mutual funds, or bonds.",
               "icon": "/assets/loans/secured-loan-against-security.png",
               "features": [
@@ -2391,268 +2391,6 @@
       "icon": "/assets/insurance.png",
       "categories": [
         {
-          "name": "Accident Insurance",
-          "slug": "accident-insurance",
-          "description": "Covers life-altering health events and accidents with lump sum payouts, disability compensation, and global protection.",
-          "icon": "/assets/insurance/critical-illness.png",
-          "loans": [
-            {
-              "title": "Accidental Death Benefit",
-              "slug": "accidental-death-benefit",
-              "description": "Pays a fixed sum to the nominee in case of the insured’s death due to an accident.",
-              "icon": "/assets/insurance/personal-accidental.png",
-              "features": [
-                "Full sum assured paid on accidental death",
-                "Available as standalone or rider with life policy",
-                "Affordable premiums, global coverage options",
-                "Policy issuance is quick and simple"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Full sum assured paid on accidental death",
-                    "Available as standalone or rider with life policy",
-                    "Affordable premiums, global coverage options",
-                    "Policy issuance is quick and simple"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian residents aged 18–65 years",
-                    "Suitable for working professionals & daily commuters"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Nominee Details, Income Proof (if needed)"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Critical Illness Insurance",
-              "slug": "critical-illness-insurance",
-              "description": "Provides a lump sum payout on diagnosis of specified life-threatening illnesses like cancer, heart attack, or stroke.",
-              "icon": "/assets/insurance/term-critical-illness.png",
-              "features": [
-                "Covers major illnesses: Cancer, Kidney failure, etc.",
-                "Lump sum benefit upon first diagnosis",
-                "No hospital bills needed for claim",
-                "Waiting period of 30–90 days applicable"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers major illnesses: Cancer, Kidney failure, etc.",
-                    "Lump sum benefit upon first diagnosis",
-                    "No hospital bills needed for claim",
-                    "Waiting period of 30–90 days applicable"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian citizens aged 18–65 years",
-                    "Salaried, self-employed, homemakers"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Medical Reports (if required)",
-                    "Address Proof"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Permanent & Partial Disability Cover",
-              "slug": "permanent-partial-disability-cover",
-              "description": "Provides financial compensation for total or partial disability caused by an accident.",
-              "icon": "/assets/insurance/personal-disability.png",
-              "features": [
-                "Covers loss of limbs, sight, or mobility",
-                "Lump sum payout based on type and extent of disability",
-                "Suitable for high-risk occupation workers",
-                "Can be bought as a rider or standalone"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers loss of limbs, sight, or mobility",
-                    "Lump sum payout based on type and extent of disability",
-                    "Suitable for high-risk occupation workers",
-                    "Can be bought as a rider or standalone"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Individuals aged 18–65 years",
-                    "Suitable for high-risk occupation workers"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Disability Certificate (if applicable)",
-                    "Address Proof, Income Proof"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Group Insurance",
-          "slug": "group-insurance",
-          "description": "Covers multiple members of an organization or association under a single policy — cost-effective protection for life, health, or accidents.",
-          "icon": "/assets/insurance/group-insurance.png",
-          "loans": [
-            {
-              "title": "Group Life Insurance",
-              "slug": "group-life-insurance",
-              "description": "Provides life cover to all members/employees of an organization under a single policy.",
-              "icon": "/assets/insurance/group-life-insurance.png",
-              "features": [
-                "Uniform or graded life cover for all members",
-                "Cost-effective bulk life insurance",
-                "Premiums may be paid by employer or shared",
-                "Easy issuance under one umbrella"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Uniform or graded life cover for all members",
-                    "Cost-effective bulk life insurance",
-                    "Premiums may be paid by employer or shared",
-                    "Covers employees aged 18–65 years"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Registered companies, organizations, associations",
-                    "Minimum group size typically 7–10 members"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Company PAN, Incorporation Certificate",
-                    "Employee Data: Name, DOB, Designation, Salary",
-                    "Address Proof, Employee ID Details"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Group Health Insurance",
-              "slug": "group-health-insurance",
-              "description": "Offers medical insurance for employees/members with options like maternity, OPD, and pre-existing disease coverage.",
-              "icon": "/assets/insurance/group-health-insurance.png",
-              "features": [
-                "Covers hospitalization, pre- & post-hospital expenses",
-                "Customizable cover: room rent, maternity, daycare",
-                "Tax benefits for employer",
-                "Covers employees and optionally family members"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers hospitalization, pre- & post-hospital expenses",
-                    "Customizable cover: room rent limits, maternity, daycare",
-                    "Tax benefits for employer",
-                    "Employees' family members can also be covered"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Corporates, SMEs, Startups, Associations",
-                    "Minimum 5–10 employees/members"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "Company PAN, GST Certificate",
-                    "Employee List with DOB, Gender",
-                    "Employee Address & ID Proofs"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Group Personal Accident Insurance",
-              "slug": "group-personal-accident-insurance",
-              "description": "Covers accidental death, disability, and medical expenses for all employees under a single plan.",
-              "icon": "/assets/insurance/group-accident-insurance.png",
-              "features": [
-                "Lump sum paid on accidental death or disability",
-                "Covers temporary/permanent disability & hospitalization",
-                "Available 24x7 including global protection",
-                "Works for contract, full-time, or seasonal employees"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Lump sum paid on accidental death or disability",
-                    "Coverage for temporary/permanent disability & hospitalization",
-                    "24x7 global protection available",
-                    "Suitable for all businesses with employees"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Businesses with permanent/contract/seasonal staff",
-                    "Minimum group size of 5–10 members"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "Company Registration Documents",
-                    "Member Details: Age, Name, Salary",
-                    "Income Proof (for sum insured selection)"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Health Insurance",
           "slug": "health-insurance",
           "description": "Comprehensive medical coverage for individuals and families with flexible options and tax benefits.",
@@ -2760,117 +2498,6 @@
                 }
               ]
             }
-          ]
-        },
-        {
-          "name": "Investment Plans",
-          "slug": "investment-plans",
-          "description": "Build wealth and secure your future with guaranteed returns or market-linked insurance solutions.",
-          "icon": "/assets/insurance/investment-guaranteed.png",
-          "loans": [
-            {
-              "title": "Guaranteed Return Plans",
-              "slug": "guaranteed-return-plans",
-              "description": "Offer assured maturity amount irrespective of market conditions — ideal for conservative investors.",
-              "icon": "/assets/insurance/investment-guaranteed.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Fixed maturity payouts guaranteed",
-                    "Premium options: Single, limited, or regular pay",
-                    "Tax-saving under Sec 80C & tax-free returns under 10(10D)"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian citizens aged 18–60 years",
-                    "Risk-averse individuals, retirees"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof (if needed)"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Savings Endowment Plans",
-              "slug": "savings-endowment-plans",
-              "description": "Traditional life insurance plan that provides a lump sum on maturity along with life cover.",
-              "icon": "/assets/insurance/life-endowment.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Fixed maturity benefits + life cover",
-                    "Low-risk, guaranteed savings plan",
-                    "Bonuses and long-term savings discipline"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian residents aged 18–60 years",
-                    "Salaried/self-employed"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof (if applicable)"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Unit Linked Insurance Plans (ULIPs)",
-              "slug": "ulip-plans",
-              "description": "Combines life insurance with market-linked investments, offering flexibility and long-term wealth creation.",
-              "icon": "/assets/insurance/investment-unit-linked.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Dual benefit: Insurance + Investment",
-                    "Choose from equity, debt, or balanced funds",
-                    "Partial withdrawal and fund-switch options"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian citizens aged 18–60 years",
-                    "Salaried, self-employed, or professionals"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof (if required)"
-                  ]
-                }
-              ]
-            }
-            
           ]
         },
         {
@@ -2986,6 +2613,118 @@
             }
           ]
         },
+         
+        {
+          "name": "Investment Plans",
+          "slug": "investment-plans",
+          "description": "Build wealth and secure your future with guaranteed returns or market-linked insurance solutions.",
+          "icon": "/assets/insurance/investment-guaranteed.png",
+          "loans": [
+            {
+              "title": "Guaranteed Return Plans",
+              "slug": "guaranteed-return-plans",
+              "description": "Offer assured maturity amount irrespective of market conditions — ideal for conservative investors.",
+              "icon": "/assets/insurance/investment-guaranteed.png",
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fixed maturity payouts guaranteed",
+                    "Premium options: Single, limited, or regular pay",
+                    "Tax-saving under Sec 80C & tax-free returns under 10(10D)"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian citizens aged 18–60 years",
+                    "Risk-averse individuals, retirees"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Address Proof",
+                    "Income Proof (if needed)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Savings Endowment Plans",
+              "slug": "savings-endowment-plans",
+              "description": "Traditional life insurance plan that provides a lump sum on maturity along with life cover.",
+              "icon": "/assets/insurance/life-endowment.png",
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fixed maturity benefits + life cover",
+                    "Low-risk, guaranteed savings plan",
+                    "Bonuses and long-term savings discipline"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian residents aged 18–60 years",
+                    "Salaried/self-employed"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Address Proof",
+                    "Income Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Unit Linked Insurance Plans (ULIPs)",
+              "slug": "ulip-plans",
+              "description": "Combines life insurance with market-linked investments, offering flexibility and long-term wealth creation.",
+              "icon": "/assets/insurance/investment-unit-linked.png",
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Dual benefit: Insurance + Investment",
+                    "Choose from equity, debt, or balanced funds",
+                    "Partial withdrawal and fund-switch options"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Indian citizens aged 18–60 years",
+                    "Salaried, self-employed, or professionals"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC: Aadhaar, PAN",
+                    "Address Proof",
+                    "Income Proof (if required)"
+                  ]
+                }
+              ]
+            }
+            
+          ]
+        },
         {
           "name": "Motor Insurance",
           "slug": "motor-insurance",
@@ -3092,229 +2831,6 @@
                     "KYC: Aadhaar, PAN",
                     "RC Book of Two-Wheeler",
                     "Previous Policy (if renewing)"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Home Insurance",
-          "slug": "home-insurance",
-          "icon": "/assets/insurance/property.png",
-          "description": "Protect residential and commercial properties from fire, theft, and natural disasters with comprehensive insurance plans.",
-          "loans": [
-            {
-              "title": "Commercial Property Insurance",
-              "slug": "commercial-property-insurance",
-              "description": "Provides financial protection for commercial buildings, offices, or shops against fire, theft, vandalism, and natural disasters.",
-              "icon": "/assets/loans/unsecuredbusiness-msme-loan.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers both building and business contents",
-                    "Includes fire, riots, natural disasters, theft",
-                    "Can cover rented or owned commercial spaces"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Business property owners",
-                    "Commercial registration required",
-                    "Available for warehouses, offices, shops"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Commercial Property Documents",
-                    "Business Registration / Trade License"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Home Building Insurance",
-              "slug": "home-building-insurance",
-              "description": "Covers the physical structure of your residential home against risks like fire, floods, earthquakes, and more.",
-              "icon": "/assets/loans/housing-home-loan.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers structural damage due to natural/man-made events",
-                    "Protection against fire, floods, cyclones, etc.",
-                    "Low premium with long-term options"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Homeowners (individual or jointly owned)",
-                    "Property must be registered in proposer’s name",
-                    "Residential use only (not commercial)"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Property Ownership Documents",
-                    "Address Proof, Construction Cost Estimate"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Home Contents Insurance",
-              "slug": "home-contents-insurance",
-              "description": "Protects household items like electronics, appliances, furniture, and personal belongings from theft or damage.",
-              "icon": "/assets/loans/secured-loan-against-security.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers loss/damage to household contents",
-                    "Fire, theft, burglary, natural disasters included",
-                    "Can be purchased as standalone or with building cover"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Tenants or homeowners",
-                    "Must declare items and estimated value",
-                    "Residential property required"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof, Inventory List",
-                    "Property Details or Rent Agreement"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Term Insurance",
-          "slug": "term-insurance",
-          "icon": "/assets/insurance/term.png",
-          "description": "Protect your loved ones financially with high-sum assured term plans. Choose from various coverage options based on your needs.",
-          "loans": [
-            {
-              "title": "Pure Term Plans",
-              "slug": "pure-term-plans",
-              "description": "Offers high life cover at low premiums, with no maturity benefit — pure protection for your loved ones.",
-              "icon": "/assets/insurance/term-pure-term.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Large cover amount at affordable premium",
-                    "Death benefit paid to nominee",
-                    "No maturity value if insured survives"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian citizens aged 18–65 years",
-                    "Salaried/self-employed individuals"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof: Salary Slips / ITRs"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Term Plan with Critical Illness Cover",
-              "slug": "term-critical-illness-cover",
-              "description": "Term insurance bundled with lump sum benefit on diagnosis of critical illnesses like cancer, stroke, etc.",
-              "icon": "/assets/insurance/term-critical-illness.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Dual protection: Life cover + Critical illness",
-                    "Covers 20+ critical illnesses depending on insurer",
-                    "One-time payout on diagnosis, independent of death claim"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian citizens aged 18–60 years",
-                    "Salaried or self-employed individuals"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Medical Reports (if applicable)",
-                    "Address & Income Proof"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Term Plan with Return of Premium",
-              "slug": "term-return-of-premium",
-              "description": "Provides life cover along with a refund of total premiums paid if you survive the policy term.",
-              "icon": "/assets/insurance/term-return.png",
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Return of total premiums at maturity",
-                    "Death benefit + survival benefit",
-                    "Slightly higher premium than pure term"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian residents aged 18–60 years",
-                    "Suitable for conservative investors"
-                  ]
-                },
-                {
-                  "title": "Documents Required",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Address Proof",
-                    "Income Proof: Bank Statements / ITRs"
                   ]
                 }
               ]
@@ -3435,6 +2951,7 @@
             }
           ]
         }
+       
       ]
     },
     "payments": {
