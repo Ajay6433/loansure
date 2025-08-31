@@ -455,7 +455,7 @@
               ]
             },
             {
-              "title": "Loan Against Securities (LAS)",
+              "title": "Loan Against Securities",
               "slug": "loan-against-securities",
               "description": "Leverage your investments without liquidating them. Get instant funds by pledging your shares, mutual funds, bonds, or insurance policies as collateral.",
               "icon": "/assets/loans/secured-loan-against-security.png",
