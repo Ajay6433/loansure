@@ -1676,8 +1676,8 @@
           ]
         },
         {
-          "name": "Housing Loan",
-          "slug": "housing-loan",
+          "name": "Home Loan",
+          "slug": "home-loan",
           "description": "Realize your dream of owning a home",
           "icon": "/assets/home-loan.png",
           "loans": [
