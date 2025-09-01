@@ -806,7 +806,7 @@
               "title": "Invoice / Bill Discounting",
               "slug": "invoice-bill-discounting",
               "description": "A facility where businesses receive immediate funds by discounting unpaid invoices, ideal for improving cash flow and managing short-term working capital needs without waiting for customer payments.",
-              "icon": "/assets/loans/invoice-bill-discounting.png",
+              "icon": "/assets/loans/securedbusiness-invoice.png",
               "features": [
                 "Funds against unpaid invoices",
                 "Reduces cash flow gap",
@@ -1361,7 +1361,286 @@
           "slug": "loan-against-property",
           "description": "Grow your business with collateral-backed financing",
           "icon": "/assets/business-loan.png",
-          "loans": []
+          "loans": [
+            {
+              "title": "Residential Property LAP",
+              "slug": "residential-property-lap",
+              "description": "A secured loan using residential property (house or apartment) as collateral, ideal for personal needs or business funding, offering higher loan amounts at lower interest rates.",
+              "icon": "/assets/loans/residential-property-lap.png",
+              "features": [
+                "Loan up to 70% of property value",
+                "Tenure up to 15 years",
+                "Suitable for personal or business use",
+                "Lower interest rates compared to unsecured loans"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan up to 70% of property value",
+                    "Tenure up to 15 years",
+                    "Suitable for personal or business use",
+                    "Lower interest rates compared to unsecured loans"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Homeowners (salaried or self-employed)",
+                    "Clear property title and approved valuation",
+                    "Minimum age 21 years; maximum 65 years at loan maturity",
+                    "Stable income source for EMI repayment",
+                    "Good credit score (650+)"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Commercial Property LAP",
+              "slug": "commercial-property-lap",
+              "description": "A loan against commercial property such as offices, shops, or retail spaces, suitable for business expansion, working capital, or other corporate financial needs.",
+              "icon": "/assets/loans/commercial-property-lap.png",
+              "features": [
+                "Loan against office, shop, or commercial premises",
+                "Flexible tenure and EMI options",
+                "Lower interest rates compared to unsecured business loans",
+                "Quick processing based on property valuation"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan against office, shop, or commercial premises",
+                    "Flexible tenure and EMI options",
+                    "Lower interest rates compared to unsecured business loans",
+                    "Quick processing based on property valuation"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Property owners with commercial property",
+                    "Minimum age 21 years; maximum 65 years at loan maturity",
+                    "Regular income or business cash flow for EMI repayment",
+                    "Clear property title with approved valuation report"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Industrial Property LAP",
+              "slug": "industrial-property-lap",
+              "description": "A loan secured by industrial property like factories, warehouses, or manufacturing units, helping businesses fund expansion, machinery purchase, or operational costs.",
+              "icon": "/assets/loans/industrial-property-lap.png",
+              "features": [
+                "For factories, warehouses, and industrial units",
+                "High-ticket loans with long tenure",
+                "Flexible EMI options based on business cash flow",
+                "Competitive interest rates for secured loans"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "For factories, warehouses, and industrial units",
+                    "High-ticket loans with long tenure",
+                    "Flexible EMI options based on business cash flow",
+                    "Competitive interest rates for secured loans"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Industrial property owners",
+                    "Minimum 3 years of business or ownership history",
+                    "Property with clear title and approved valuation",
+                    "Age of promoter or owner 21–65 years",
+                    "Good repayment track record"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Lease Rental Discounting (LRD)",
+              "slug": "lease-rental-discounting-lrd",
+              "description": "A loan where rental income from leased commercial property is used as collateral, enabling property owners to access working capital or finance expansion while keeping ownership.",
+              "icon": "/assets/loans/lease-rental-discounting-lrd.png",
+              "features": [
+                "Loan against rental income from commercial property",
+                "Tenure up to 10 years",
+                "EMI serviced from rental receipts",
+                "Flexible repayment options based on rental inflow"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan against rental income from commercial property",
+                    "Tenure up to 10 years",
+                    "EMI serviced from rental receipts",
+                    "Flexible repayment options based on rental inflow"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Property owners with valid lease agreements",
+                    "Minimum rental income as per lender norms (₹50,000+ monthly)",
+                    "Age 21–65 years",
+                    "Clear property title and approved valuation report"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Land / Plot LAP",
+              "slug": "land-plot-lap",
+              "description": "A loan against vacant land or plots, useful for construction, real estate investment, or business expansion, with the land serving as security.",
+              "icon": "/assets/loans/land-plot-lap.png",
+              "features": [
+                "Loan against vacant land or plots",
+                "Can be used for development, construction, or business purposes",
+                "Flexible tenure and repayment options",
+                "Competitive interest rates for secured loans"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan against vacant land or plots",
+                    "Can be used for development, construction, or business purposes",
+                    "Flexible tenure and repayment options",
+                    "Competitive interest rates for secured loans"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Land or plot owners with clear title",
+                    "Approved land valuation report",
+                    "Age 21–65 years",
+                    "Proof of regular income to service EMI"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "LAP Balance Transfer + Top-Up",
+              "slug": "lap-balance-transfer-top-up",
+              "description": "A facility to transfer an existing Loan Against Property (LAP) to another lender with the option of a top-up loan, helping reduce interest rates, adjust EMIs, and access additional funds.",
+              "icon": "/assets/loans/lap-balance-transfer-top-up.png",
+              "features": [
+                "Transfer existing LAP to a new lender",
+                "Avail top-up funds on the same property",
+                "Lower interest rates and flexible EMI options",
+                "Quick processing for approved top-up amounts"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Transfer existing LAP to a new lender",
+                    "Avail top-up funds on the same property",
+                    "Lower interest rates and flexible EMI options",
+                    "Quick processing for approved top-up amounts"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Existing LAP borrowers with good repayment record",
+                    "Property under current LAP must be lien-marked",
+                    "Age 21–65 years",
+                    "CIBIL score preferably 650+"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Property Documents: Title Deed, Encumbrance Certificate, Approved Building Plan, Property Tax Receipts",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "Home Loan",
@@ -1370,45 +1649,140 @@
           "icon": "/assets/home-loan.png",
           "loans": [
             {
-              "title": "Home Construction Loan",
-              "slug": "home-construction-loan",
-              "description": "For constructing a new house on a plot of land you already own. Disbursed in stages based on progress.",
-              "icon": "/assets/loans/housing-construction.png",
+              "title": "Home Purchase Loan",
+              "slug": "home-purchase-loan",
+              "description": "A loan to finance the purchase of a new or resale residential property, covering up to 80–90% of property value with flexible tenure and attractive interest rates.",
+              "icon": "/assets/loans/housing-home-loan.png",
               "features": [
-                "For construction on self-owned land",
-                "Loan disbursed in tranches linked to progress",
-                "Tenure up to 30 years",
-                "Lower rates than personal loans"
+                "Buy ready-to-move or under-construction homes",
+                "Loan up to 90% of property value",
+                "Flexible tenure and EMI options",
+                "Competitive interest rates for home loans"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "For construction on self-owned land",
-                    "Loan disbursed in tranches linked to progress",
-                    "Tenure up to 30 years",
-                    "Lower rates than personal loans"
+                    "Buy ready-to-move or under-construction homes",
+                    "Loan up to 90% of property value",
+                    "Flexible tenure and EMI options",
+                    "Competitive interest rates for home loans"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Indian residents (salaried/self-employed)",
-                    "Clear land title and plan approval required",
-                    "Age: 21–65 years",
-                    "Credit score 700+ preferred"
+                    "Salaried or self-employed individuals",
+                    "Age 21–65 years (at loan maturity)",
+                    "Stable income with at least 1–2 years of employment or business history",
+                    "Clear property title",
+                    "Good credit score (650+)"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Income Proof: Salary Slips / ITRs",
-                    "Property Docs: Title Deed, Approved Plan",
-                    "Estimate by Civil Engineer / Architect"
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Home Construction Loan",
+              "slug": "home-construction-loan",
+              "description": "A loan to fund the construction of a house on owned land, with disbursement typically staged based on construction progress and competitive interest rates.",
+              "icon": "/assets/loans/housing-construction.png",
+              "features": [
+                "For constructing a house on owned plot",
+                "Phased disbursement as per construction schedule",
+                "Flexible tenure and EMI options",
+                "Competitive interest rates"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "For constructing a house on owned plot",
+                    "Phased disbursement as per construction schedule",
+                    "Flexible tenure and EMI options",
+                    "Competitive interest rates"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Owners of clear title plots",
+                    "Age 21–65 years",
+                    "Stable income to support EMI",
+                    "Detailed construction plan and cost estimate"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Home Renovation / Improvement Loan",
+              "slug": "home-renovation-improvement-loan",
+              "description": "A personal or home loan to fund repairs, renovation, or interior improvements for an existing property, with quick processing and flexible repayment options.",
+              "icon": "/assets/loans/housing-renovation-loan.png",
+              "features": [
+                "Funds for repairs, interiors, or renovation",
+                "Small-ticket loan",
+                "Quick approval and disbursal",
+                "Flexible EMI and tenure options"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Funds for repairs, interiors, or renovation",
+                    "Small-ticket loan",
+                    "Quick approval and disbursal",
+                    "Flexible EMI and tenure options"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Homeowners (salaried or self-employed)",
+                    "Age 21–65 years",
+                    "Proof of income to service EMI",
+                    "Ownership proof of property"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1416,175 +1790,45 @@
             {
               "title": "Home Loan Balance Transfer",
               "slug": "home-loan-balance-transfer",
-              "description": "Transfer your existing home loan to another lender offering better rates, lower EMIs, or top-up options.",
+              "description": "A facility to transfer an existing home loan to another lender offering a lower interest rate or better terms, helping reduce EMI burden or loan tenure.",
               "icon": "/assets/loans/unsecured-balance-transfer-loan.png",
               "features": [
-                "Switch to lower interest rate",
-                "Option to combine with a top-up loan",
-                "Reduce EMI burden and tenure",
-                "Tenure reset as per new lender’s terms"
+                "Transfer existing home loan to a lower interest rate lender",
+                "Top-up option available",
+                "Reduce EMI burden or shorten loan tenure",
+                "Flexible processing and approval"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Switch to lower interest rate",
-                    "Option to combine with a top-up loan",
-                    "Reduce EMI burden and tenure",
-                    "Tenure reset as per new lender’s terms"
+                    "Transfer existing home loan to a lower interest rate lender",
+                    "Top-up option available",
+                    "Reduce EMI burden or shorten loan tenure",
+                    "Flexible processing and approval"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Existing home loan with 12+ EMIs paid",
-                    "Good repayment history & credit score",
-                    "Age: 21–65 years",
-                    "Property should be legally clear"
+                    "Existing home loan borrowers with good repayment history",
+                    "Age 21–65 years",
+                    "CIBIL score preferably 650+",
+                    "Loan account active for minimum 12 months"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Loan Statement + Repayment Track",
-                    "Income Proof: Salary Slip / ITR",
-                    "Property Docs: Sale Deed, Sanction Letter"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Home Purchase Loan",
-              "slug": "home-purchase-loan",
-              "description": "Ideal for buying a ready-to-move or under-construction residential property from a builder or developer.",
-              "icon": "/assets/loans/housing-home-loan.png",
-              "features": [
-                "Funding up to 75%–90% of property cost",
-                "Tenure up to 30 years",
-                "Attractive interest rates starting from ~8.5%",
-                "Applicable for Indian residents and NRIs"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "For purchase of flat, villa, or builder floor",
-                    "Funding up to 75%–90% of property cost",
-                    "Tenure up to 30 years",
-                    "Attractive interest rates starting from ~8.5%"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Salaried, self-employed, or professionals",
-                    "Age: 21–65 years",
-                    "Stable income source & good credit score",
-                    "Indian residents and NRIs"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Income Proof: Salary Slips / ITRs",
-                    "Property Documents: Sale Agreement, Allotment Letter",
-                    "Bank Statements: Last 6 months"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Home Renovation Loan",
-              "slug": "home-renovation-loan",
-              "description": "Finance home improvement needs like repairs, remodeling, painting, flooring, or interiors.",
-              "icon": "/assets/loans/housing-renovation-loan.png",
-              "features": [
-                "Loan amount up to ₹25–30 lakhs",
-                "Can be secured or unsecured",
-                "Tenure up to 15 years",
-                "Lower interest than personal loan (if secured)"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Loan amount up to ₹25–30 lakhs (based on value)",
-                    "Can be secured or unsecured depending on amount",
-                    "Tenure up to 15 years",
-                    "Lower interest than personal loan (if secured)"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Property owner (salaried/self-employed)",
-                    "Age: 21–65 years",
-                    "Credit score 650+ preferred",
-                    "Stable income and property valuation"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Proof of Ownership (Property Title)",
-                    "Renovation Estimate / Contractor Bill",
-                    "Income Proof + Bank Statements"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Plot + Construction Loan",
-              "slug": "plot-construction-loan",
-              "description": "Finance both land purchase and subsequent house construction within a stipulated time (typically 1–2 years).",
-              "icon": "/assets/loans/housing-construction-loan.png",
-              "features": [
-                "Covers plot purchase and home construction",
-                "Tenure up to 30 years",
-                "Stage-wise disbursement during construction",
-                "Construction must start within specified period"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Covers plot purchase and home construction",
-                    "Construction must start within specified period",
-                    "Tenure up to 30 years",
-                    "Stage-wise disbursement during construction"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Indian residents with valid income proof",
-                    "Age: 21–65 years",
-                    "Salaried/self-employed with stable income",
-                    "Good credit score preferred"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Plot Sale Agreement / Title Papers",
-                    "Construction Estimate & Sanction Plan",
-                    "Income Documents + Bank Statements"
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1592,42 +1836,92 @@
             {
               "title": "Top-Up Home Loan",
               "slug": "top-up-home-loan",
-              "description": "Get extra funds over your existing home loan without the need for a fresh loan process.",
+              "description": "An additional loan granted on top of an existing home loan, providing extra funds for personal or property-related expenses at competitive rates.",
               "icon": "/assets/loans/secured-loan-against-fixeddeposit.png",
               "features": [
-                "Lower rate than personal loans",
-                "Use for personal, medical, education, or renovation",
-                "Fast processing and minimal documentation"
+                "Extra loan over existing home loan",
+                "Quick processing and approval",
+                "Flexible EMI and tenure options",
+                "Competitive interest rates"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Additional loan amount on existing home loan",
-                    "Lower rate than personal loans",
-                    "Use for personal, medical, education, or renovation",
-                    "Fast processing and minimal documentation"
+                    "Extra loan over existing home loan",
+                    "Quick processing and approval",
+                    "Flexible EMI and tenure options",
+                    "Competitive interest rates"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Existing home loan borrower with regular repayment",
-                    "Minimum 6–12 EMIs paid on existing loan",
-                    "Good credit history preferred",
-                    "Age: 21–65 years"
+                    "Existing home loan borrowers with good repayment track record",
+                    "Age 21–65 years",
+                    "Stable income source",
+                    "CIBIL score preferably 650+"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Income Proof: Salary Slip / ITR",
-                    "Loan Account Statement",
-                    "Property & Sanction Documents (if required)"
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Plot + Construction Loan",
+              "slug": "plot-plus-construction-loan",
+              "description": "A comprehensive loan for both purchasing a plot of land and constructing a house on it, offered as a single facility with flexible disbursement linked to construction milestones.",
+              "icon": "/assets/loans/housing-construction-loan.png",
+              "features": [
+                "Buy plot and construct house",
+                "Combined loan facility",
+                "Disbursement linked to construction milestones",
+                "Flexible tenure and EMI options"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Buy plot and construct house",
+                    "Combined loan facility",
+                    "Disbursement linked to construction milestones",
+                    "Flexible tenure and EMI options"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals with ownership of plot",
+                    "Age 21–65 years",
+                    "Clear title of plot",
+                    "Detailed construction plan and cost estimate",
+                    "Stable income source for EMI repayment"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN, Passport or Voter ID",
+                    "Address Proof: Aadhaar, Passport, Utility Bill, Rent Agreement",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statements (salaried) or Last 2 years ITR, Balance Sheet and P&L (self-employed)",
+                    "Property Documents: Sale Agreement or Agreement to Sell, Title Deed, Approved Building Plan",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1641,177 +1935,47 @@
           "icon": "/assets/vehicle-loan.png",
           "loans": [
             {
-              "title": "Commercial Vehicle Loan",
-              "slug": "commercial-vehicle-loan",
-              "description": "Designed for individuals or fleet owners purchasing commercial vehicles such as trucks, tempos, buses, or auto-rickshaws.",
-              "icon": "/assets/loans/securedvehicle-commercial-loan.png",
-              "features": [
-                "Funding up to 85%–100% of vehicle value",
-                "For new and used commercial vehicles",
-                "Tenure up to 5–7 years",
-                "Option for seasonal EMIs (flexible repayment)"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Funding up to 85%–100% of vehicle value",
-                    "For new and used commercial vehicles",
-                    "Tenure up to 5–7 years",
-                    "Option for seasonal EMIs (flexible repayment)"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Transporters, small businesses, self-employed",
-                    "Age: 21–65 years",
-                    "Should have valid commercial driving license (if owner-driver)",
-                    "Credit history & repayment capacity assessed"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Business Proof / GST / Trade License",
-                    "Vehicle Quotation / Invoice",
-                    "Bank Statements, ITRs (if applicable)"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Electric Vehicle Loan",
-              "slug": "electric-vehicle-loan",
-              "description": "Get subsidized loans for purchasing electric 2-wheelers, 3-wheelers, or 4-wheelers, supported by government and private schemes.",
-              "icon": "/assets/loans/securedvehicle-ev.png",
-              "features": [
-                "Special EV interest rates starting ~7.5% p.a.",
-                "Eligible for government subsidy under FAME scheme",
-                "Tenure up to 7 years",
-                "Covers bikes, scooters, e-autos, e-cars"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Special EV interest rates starting ~7.5% p.a.",
-                    "Eligible for government subsidy under FAME scheme",
-                    "Tenure up to 7 years",
-                    "Covers bikes, scooters, e-autos, e-cars"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Salaried/self-employed / businesses",
-                    "Age: 18–65 years",
-                    "Vehicle must be from approved manufacturer",
-                    "Credit score 650+ preferred"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Invoice / Quotation from EV dealer",
-                    "Income Proof: Salary Slips / ITRs",
-                    "EV Registration & Insurance Copies (post-sale)"
-                  ]
-                }
-              ]
-            },
-            {
               "title": "New Car Loan",
               "slug": "new-car-loan",
-              "description": "Finance the purchase of a brand-new car — hatchback, sedan, SUV, or MUV — with attractive interest rates and flexible EMIs.",
+              "description": "A loan to finance the purchase of a brand-new car, offering competitive interest rates, flexible tenure, and loan amounts based on the car’s value.",
               "icon": "/assets/loans/securedvehicle-car-loan.png",
               "features": [
-                "Funding up to 90%–100% of ex-showroom price",
-                "Tenure from 1 to 7 years",
-                "Competitive interest rates (~8.5% onwards)",
-                "Fast approval with minimal documentation"
+                "Finance up to 90% of on-road price",
+                "Tenure up to 7 years",
+                "Competitive interest rates",
+                "Quick processing and disbursal"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Funding up to 90%–100% of ex-showroom price",
-                    "Tenure from 1 to 7 years",
-                    "Competitive interest rates (~8.5% onwards)",
-                    "Fast approval with minimal documentation"
+                    "Finance up to 90% of on-road price",
+                    "Tenure up to 7 years",
+                    "Competitive interest rates",
+                    "Quick processing and disbursal"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Salaried, self-employed, professionals",
-                    "Age: 21–65 years",
-                    "Stable monthly income",
-                    "Good credit history preferred"
+                    "Salaried or self-employed individuals aged 21–65 years",
+                    "Minimum income as per lender norms (₹15,000–₹20,000 monthly for salaried)",
+                    "Good credit score (650+)",
+                    "Permanent residence proof"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Income Proof: Salary Slips / ITRs",
-                    "Car Quotation / Proforma Invoice",
-                    "Bank Statements: Last 6 months"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Two-Wheeler Loan",
-              "slug": "two-wheeler-loan",
-              "description": "Finance the purchase of a scooter, bike, or superbike with easy EMIs and low down payment.",
-              "icon": "/assets/loans/securedvehicle-bike.png",
-              "features": [
-                "Up to 90%–100% funding of on-road price",
-                "Loan tenure from 6 months to 5 years",
-                "Affordable EMI plans starting ₹500/month",
-                "Quick approval; some lenders offer zero interest"
-              ],
-              "sections": [
-                {
-                  "title": "Key Highlights",
-                  "icon": "/assets/icons/key-highlights.png",
-                  "points": [
-                    "Up to 90%–100% funding of on-road price",
-                    "Loan tenure from 6 months to 5 years",
-                    "Affordable EMI plans starting ₹500/month",
-                    "Quick approval; some lenders offer zero interest"
-                  ]
-                },
-                {
-                  "title": "Eligibility",
-                  "icon": "/assets/icons/eligibility.png",
-                  "points": [
-                    "Salaried, self-employed individuals",
-                    "Age: 18–65 years",
-                    "Minimum monthly income required",
-                    "Clean credit score preferred"
-                  ]
-                },
-                {
-                  "title": "Onboarding Requirement",
-                  "icon": "/assets/icons/onboarding.png",
-                  "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Income Proof: Bank Statement / Salary Proof",
-                    "Bike Quotation / Invoice",
-                    "Photograph, Address Proof"
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1819,43 +1983,227 @@
             {
               "title": "Used Car Loan",
               "slug": "used-car-loan",
-              "description": "Buy a pre-owned or second-hand car with flexible funding options and tenure based on vehicle age.",
+              "description": "A loan to purchase pre-owned vehicles, with tenure and interest rates varying based on the vehicle’s age and condition.",
               "icon": "/assets/loans/securedvehicle-used-car-loan.png",
               "features": [
-                "Loan up to 70%–90% of car’s valuation",
-                "Tenure up to 5 years",
-                "Interest rate slightly higher than new car loans",
-                "For cars up to 8–10 years old"
+                "Finance up to 80% of car value",
+                "Flexible repayment options",
+                "Competitive interest rates based on vehicle age",
+                "Quick processing and approval"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Loan up to 70%–90% of car’s valuation",
-                    "Tenure up to 5 years",
-                    "Interest rate slightly higher than new car loans",
-                    "For cars up to 8–10 years old"
+                    "Finance up to 80% of car value",
+                    "Flexible repayment options",
+                    "Competitive interest rates based on vehicle age",
+                    "Quick processing and approval"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Salaried, self-employed individuals",
-                    "Age: 21–65 years",
-                    "Clean credit history preferred",
-                    "Verified vehicle documents required"
+                    "Salaried or self-employed individuals aged 21–65 years",
+                    "Vehicle age typically ≤ 7 years",
+                    "Minimum income as per lender policy",
+                    "Good repayment history and credit score"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC: Aadhaar, PAN",
-                    "Income Proof: Salary Slips / ITRs",
-                    "RC Copy / Vehicle Valuation Report",
-                    "Bank Statements + Insurance Copy"
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Two-Wheeler Loan",
+              "slug": "two-wheeler-loan",
+              "description": "A loan to buy motorcycles, scooters, or mopeds, featuring quick processing, lower ticket size, and short-tenure options.",
+              "icon": "/assets/loans/securedvehicle-bike.png",
+              "features": [
+                "Covers scooters and bikes",
+                "Funding 80–100% of vehicle cost",
+                "Quick disbursal",
+                "Flexible repayment tenure"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Covers scooters and bikes",
+                    "Funding 80–100% of vehicle cost",
+                    "Quick disbursal",
+                    "Flexible repayment tenure"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals aged 18–60 years",
+                    "Minimum monthly income as per lender norms",
+                    "Good credit history preferred"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Electric Vehicle (EV) Loan",
+              "slug": "electric-vehicle-ev-loan",
+              "description": "A specialized loan to purchase electric vehicles, often with subsidies, lower interest rates, and incentives for green mobility.",
+              "icon": "/assets/loans/securedvehicle-ev.png",
+              "features": [
+                "Green financing for EVs",
+                "Lower ROI compared to conventional vehicle loans",
+                "Quick processing and disbursal",
+                "Flexible tenure options"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Green financing for EVs",
+                    "Lower ROI compared to conventional vehicle loans",
+                    "Quick processing and disbursal",
+                    "Flexible tenure options"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals aged 21–65 years",
+                    "Minimum income as per lender norms",
+                    "Good credit score preferred"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Commercial Vehicle Loan",
+              "slug": "commercial-vehicle-loan",
+              "description": "A loan for purchasing trucks, vans, or commercial vehicles, helping businesses expand their transport fleet with flexible repayment options.",
+              "icon": "/assets/loans/securedvehicle-commercial-loan.png",
+              "features": [
+                "For trucks, buses, HCV and LCV",
+                "Covers new and used commercial vehicles",
+                "Flexible tenure and EMI options",
+                "Quick approval and disbursal"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "For trucks, buses, HCV and LCV",
+                    "Covers new and used commercial vehicles",
+                    "Flexible tenure and EMI options",
+                    "Quick approval and disbursal"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Self-employed transporters or fleet owners aged 21–65 years",
+                    "Minimum business vintage 1–3 years",
+                    "Good credit score (650+)",
+                    "Stable revenue proof"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Special / Luxury Vehicle Loan",
+              "slug": "special-luxury-vehicle-loan",
+              "description": "A loan for high-value or luxury vehicles, including premium cars or sports vehicles, tailored with higher loan amounts and flexible tenures.",
+              "icon": "/assets/loans/special-luxury-vehicle-loan.png",
+              "features": [
+                "Covers premium and luxury cars",
+                "Tailored EMI options",
+                "Flexible tenure and high loan amounts",
+                "Quick approval and disbursal"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Covers premium or luxury cars",
+                    "Tailored EMI options",
+                    "Flexible tenure and high loan amounts",
+                    "Quick approval and disbursal"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "HNI salaried or self-employed individuals aged 25–65 years",
+                    "Minimum income as per luxury car loan norms",
+                    "Good credit score (700+ preferred)",
+                    "Permanent residence proof"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Income Proof: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR (self-employed)",
+                    "Vehicle Documents: Quotation or Invoice from Dealer, Vehicle Registration (for refinancing or resale)",
+                    "Bank Statements: Last 6 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1871,42 +2219,43 @@
             {
               "title": "Domestic Education Loan",
               "slug": "domestic-education-loan",
-              "description": "Finance your higher education in India — including tuition, books, hostel, and more — with affordable interest rates and flexible repayment terms.",
+              "description": "A loan to finance higher education within India, covering tuition fees, hostel charges, and other academic expenses.",
               "icon": "/assets/loans/educational-domestic-loan.png",
               "features": [
-                "For graduation, post-graduation, or diploma",
-                "Covers tuition, hostel, books, travel, etc.",
-                "Loan amount up to ₹10–15 lakhs",
-                "Moratorium during course + 6–12 months grace"
+                "Covers tuition, hostel, books, and other academic expenses",
+                "Moratorium available till course completion",
+                "Flexible repayment options"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Loan covers tuition, hostel, books, travel",
-                    "Loan amount: ₹10–15 lakhs (or higher)",
-                    "Moratorium during course + grace period"
+                    "Covers tuition, hostel, books, and other academic expenses",
+                    "Moratorium available till course completion",
+                    "Flexible repayment options"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Indian students admitted to UGC/AICTE/recognized institutes",
-                    "Co-applicant (parent/guardian) usually required",
-                    "Age: 18–35 years",
-                    "Minimum 10+2 qualification"
+                    "Indian students admitted to recognized institutes or colleges",
+                    "Age 18–35 years",
+                    "Co-borrower (parent or guardian) with stable income",
+                    "Good repayment capacity and credit history"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC Documents: Aadhaar, PAN",
-                    "Admission Letter / Fee Structure",
-                    "Academic Records: Marksheets, Certificates",
-                    "Income Proof of Co-applicant: ITRs / Salary Slips"
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
@@ -1914,42 +2263,221 @@
             {
               "title": "Overseas Education Loan",
               "slug": "overseas-education-loan",
-              "description": "Support your dream to study abroad with funding that covers tuition, airfare, living expenses, and more for global universities.",
+              "description": "A loan to fund education abroad, including tuition, travel, living expenses, and other study-related costs, which may require collateral or a co-applicant.",
               "icon": "/assets/loans/educational-overseas-loan.png",
               "features": [
-                "Covers tuition, travel, living costs abroad",
-                "Loan up to ₹20–50 lakhs or more",
-                "Post-course repayment with grace",
-                "Secured/Unsecured options available"
+                "Covers tuition and living expenses abroad",
+                "Forex disbursement facility",
+                "Moratorium till course completion",
+                "Flexible repayment options"
               ],
               "sections": [
                 {
                   "title": "Key Highlights",
                   "icon": "/assets/icons/key-highlights.png",
                   "points": [
-                    "Loan for tuition, airfare, living costs abroad",
-                    "₹20–50 lakhs (can go higher)",
-                    "Repayment starts post-course with grace"
+                    "Covers tuition and living expenses abroad",
+                    "Forex disbursement facility",
+                    "Moratorium till course completion",
+                    "Flexible repayment options"
                   ]
                 },
                 {
                   "title": "Eligibility",
                   "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Indian nationals pursuing higher studies overseas",
-                    "Admission to reputed foreign university (Ivy/Top-100)",
-                    "Co-applicant (with Indian income) required",
-                    "Good academic record; collateral for large loans"
+                    "Students with confirmed admission in overseas universities",
+                    "Age 18–35 years",
+                    "Co-borrower (parent or guardian) with stable income",
+                    "Good repayment capacity and credit history"
                   ]
                 },
                 {
                   "title": "Onboarding Requirement",
                   "icon": "/assets/icons/onboarding.png",
                   "points": [
-                    "KYC Documents: Aadhaar, Passport, PAN",
-                    "University Admission Letter / I-20 / Visa Copy",
-                    "Academic Records + Test Scores (GRE/IELTS)",
-                    "Income & Property Docs (for secured)"
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Education Loan with Collateral",
+              "slug": "education-loan-with-collateral",
+              "description": "A secured education loan where the student or co-applicant pledges property, fixed deposits, or other assets to avail higher loan amounts at lower interest rates.",
+              "icon": "/assets/loans/education-loan-with-collateral.png",
+              "features": [
+                "Loan backed by collateral such as property or fixed deposits",
+                "Higher loan eligibility and lower interest rates",
+                "Flexible repayment options"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan backed by collateral (property, FD, or fixed deposits)",
+                    "Higher loan eligibility and lower interest rates",
+                    "Flexible repayment options"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Students admitted to recognized institutes",
+                    "Age 18–35 years",
+                    "Collateral provided by co-borrower or parent",
+                    "Co-borrower must have stable income"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Education Loan without Collateral",
+              "slug": "education-loan-without-collateral",
+              "description": "An unsecured education loan suitable for students needing smaller to medium loan amounts, typically with shorter tenure and slightly higher interest rates.",
+              "icon": "/assets/loans/education-loan-without-collateral.png",
+              "features": [
+                "Unsecured loan with no collateral required",
+                "Suitable for small to medium loan amounts",
+                "Flexible repayment tenure",
+                "Quick processing"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Unsecured loan with no collateral required",
+                    "Suitable for small to medium loan amounts",
+                    "Flexible repayment tenure",
+                    "Quick processing"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Students admitted to recognized institutes in India or abroad",
+                    "Age 18–35 years",
+                    "Co-borrower or parent may be required depending on lender",
+                    "Co-borrower must have stable income if involved"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Education Loan Balance Transfer",
+              "slug": "education-loan-balance-transfer",
+              "description": "A facility to transfer an existing education loan to another lender offering lower interest rates, better EMI options, or extended repayment tenure.",
+              "icon": "/assets/loans/education-loan-balance-transfer.png",
+              "features": [
+                "Transfer existing education loan to a lender offering lower ROI",
+                "Top-up loan option available"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Transfer existing education loan to a lender offering lower ROI",
+                    "Top-up loan option available"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Existing education loan borrowers with good repayment record",
+                    "Age 18–35 years",
+                    "Active loan for minimum 12 months",
+                    "Good credit score (650+)"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Skill Development Loan",
+              "slug": "skill-development-loan",
+              "description": "A loan designed for vocational or skill-based courses, certifications, and professional training programs, helping students fund short-term courses to improve employability.",
+              "icon": "/assets/loans/skill-development-loan.png",
+              "features": [
+                "Loan for vocational courses, certification programs, and skill development",
+                "Covers course fees, exam fees, and associated expenses",
+                "Quick processing and flexible repayment"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Loan for vocational courses, certification programs, and skill development",
+                    "Covers course fees, exam fees, and associated expenses",
+                    "Quick processing and flexible repayment"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Students pursuing skill-based or vocational programs",
+                    "Age 18–35 years",
+                    "Co-borrower with stable income preferred",
+                    "Minimum academic qualification as per course requirement"
+                  ]
+                },
+                {
+                  "title": "Onboarding Requirement",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "Identity Proof: Aadhaar, PAN",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Academic Proof: Mark Sheets, Certificates, Admission Letter from College or University",
+                    "Income Proof of Applicant or Co-Applicant: Last 3 months salary slips and 6 months bank statement (salaried) or Last 2 years ITR, Balance Sheet, P&L (self-employed)",
+                    "Bank Statements: Last 6–12 months",
+                    "Passport-size Photograph"
                   ]
                 }
               ]
