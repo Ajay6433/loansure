@@ -2499,10 +2499,10 @@
           "icon": "/assets/cards/cashback-card.png",
           "loans": [
             {
-              "title": "Cashback Credit Cards",
-              "slug": "cashback-credit-cards",
+              "title": "Axis Bank",
+              "slug": "cashback-credit-cards-axis-bank",
               "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
-              "icon": "/assets/cards/cashback-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "Direct cashback credited on eligible spends",
                 "Extra cashback on online, utility, and fuel payments",
@@ -2539,14 +2539,225 @@
                     "Address Proof: Utility bill, Aadhaar, Passport",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "cashback-credit-cards-hdfc-bank",
+              "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Direct cashback credited on eligible spends",
+                "Extra cashback on online, utility, and fuel payments",
+                "Automatic monthly cashback adjustments",
+                "Annual fee may be reversed on meeting spend threshold"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Direct cashback credited on eligible spends",
+                    "Extra cashback on online, utility, and fuel payments",
+                    "Automatic monthly cashback adjustments",
+                    "Annual fee may be reversed on meeting spend threshold"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "HDFC Millennia",
-                    "Axis Ace",
-                    "SBI Cashback Card"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "cashback-credit-cards-icici-bank",
+              "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Direct cashback credited on eligible spends",
+                "Extra cashback on online, utility, and fuel payments",
+                "Automatic monthly cashback adjustments",
+                "Annual fee may be reversed on meeting spend threshold"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Direct cashback credited on eligible spends",
+                    "Extra cashback on online, utility, and fuel payments",
+                    "Automatic monthly cashback adjustments",
+                    "Annual fee may be reversed on meeting spend threshold"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "cashback-credit-cards-kotak-mahindra-bank",
+              "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Direct cashback credited on eligible spends",
+                "Extra cashback on online, utility, and fuel payments",
+                "Automatic monthly cashback adjustments",
+                "Annual fee may be reversed on meeting spend threshold"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Direct cashback credited on eligible spends",
+                    "Extra cashback on online, utility, and fuel payments",
+                    "Automatic monthly cashback adjustments",
+                    "Annual fee may be reversed on meeting spend threshold"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Card",
+              "slug": "cashback-credit-cards-sbi-card",
+              "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Direct cashback credited on eligible spends",
+                "Extra cashback on online, utility, and fuel payments",
+                "Automatic monthly cashback adjustments",
+                "Annual fee may be reversed on meeting spend threshold"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Direct cashback credited on eligible spends",
+                    "Extra cashback on online, utility, and fuel payments",
+                    "Automatic monthly cashback adjustments",
+                    "Annual fee may be reversed on meeting spend threshold"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "cashback-credit-cards-indusind-bank",
+              "description": "Earn instant savings with every swipe across online, fuel, grocery, and utility spends. Cashback is auto-credited and easy to redeem, making these cards user-friendly and rewarding.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "Direct cashback credited on eligible spends",
+                "Extra cashback on online, utility, and fuel payments",
+                "Automatic monthly cashback adjustments",
+                "Annual fee may be reversed on meeting spend threshold"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Direct cashback credited on eligible spends",
+                    "Extra cashback on online, utility, and fuel payments",
+                    "Automatic monthly cashback adjustments",
+                    "Annual fee may be reversed on meeting spend threshold"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
@@ -2560,10 +2771,10 @@
           "icon": "/assets/cards/entertainment-card.png",
           "loans": [
             {
-              "title": "Entertainment Credit Cards",
-              "slug": "entertainment-credit-cards",
+              "title": "Axis Bank",
+              "slug": "entertainment-credit-cards-axis-bank",
               "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
-              "icon": "/assets/cards/entertainment-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "Discounts or 1+1 offers on movie tickets",
                 "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
@@ -2600,14 +2811,225 @@
                     "Address Proof: Aadhaar, Passport, Utility Bill",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "entertainment-credit-cards-hdfc-bank",
+              "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Discounts or 1+1 offers on movie tickets",
+                "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                "Special deals on dining, concerts, and event bookings",
+                "Great for frequent moviegoers and entertainment spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Discounts or 1+1 offers on movie tickets",
+                    "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                    "Special deals on dining, concerts, and event bookings",
+                    "Great for frequent moviegoers and entertainment spenders"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "HDFC Times Card",
-                    "Axis Neo",
-                    "Kotak PVR Card"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Fair to good credit score (650+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "entertainment-credit-cards-icici-bank",
+              "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Discounts or 1+1 offers on movie tickets",
+                "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                "Special deals on dining, concerts, and event bookings",
+                "Great for frequent moviegoers and entertainment spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Discounts or 1+1 offers on movie tickets",
+                    "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                    "Special deals on dining, concerts, and event bookings",
+                    "Great for frequent moviegoers and entertainment spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Fair to good credit score (650+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "entertainment-credit-cards-kotak-mahindra-bank",
+              "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Discounts or 1+1 offers on movie tickets",
+                "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                "Special deals on dining, concerts, and event bookings",
+                "Great for frequent moviegoers and entertainment spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Discounts or 1+1 offers on movie tickets",
+                    "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                    "Special deals on dining, concerts, and event bookings",
+                    "Great for frequent moviegoers and entertainment spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Fair to good credit score (650+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "entertainment-credit-cards-sbi-bank",
+              "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Discounts or 1+1 offers on movie tickets",
+                "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                "Special deals on dining, concerts, and event bookings",
+                "Great for frequent moviegoers and entertainment spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Discounts or 1+1 offers on movie tickets",
+                    "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                    "Special deals on dining, concerts, and event bookings",
+                    "Great for frequent moviegoers and entertainment spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Fair to good credit score (650+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "entertainment-credit-cards-indusind-bank",
+              "description": "Reward your leisure! Get discounts and cashback on OTT subscriptions, movies, dining, and concerts. These cards cater to your lifestyle and entertainment needs.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "Discounts or 1+1 offers on movie tickets",
+                "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                "Special deals on dining, concerts, and event bookings",
+                "Great for frequent moviegoers and entertainment spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Discounts or 1+1 offers on movie tickets",
+                    "Cashback and rewards on OTT subscriptions (Netflix, Amazon Prime, etc.)",
+                    "Special deals on dining, concerts, and event bookings",
+                    "Great for frequent moviegoers and entertainment spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Fair to good credit score (650+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
@@ -2621,10 +3043,275 @@
           "icon": "/assets/cards/fuel-card.png",
           "loans": [
             {
-              "title": "Fuel Credit Cards",
-              "slug": "fuel-credit-cards",
+              "title": "Axis Bank",
+              "slug": "fuel-credit-cards-axis-bank",
               "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
-              "icon": "/assets/cards/fuel-card.png",
+              "icon": "/assets/cards/axis-bank.png",
+              "features": [
+                "Fuel surcharge waiver at partnered fuel stations",
+                "Cashback or reward points on fuel spends",
+                "Additional discounts or rewards with oil company partnerships",
+                "Useful for frequent personal or commercial vehicle users"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fuel surcharge waiver at partnered fuel stations",
+                    "Cashback or reward points on fuel spends",
+                    "Additional discounts or rewards with oil company partnerships",
+                    "Useful for frequent personal or commercial vehicle users"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (typically 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                },
+                {
+                  "title": "Popular Cards",
+                  "icon": "/assets/icons/cardsIcon.png",
+                  "points": [
+                    "HDFC IndianOil",
+                    "SBI BPCL Card",
+                    "ICICI HPCL Coral"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "fuel-credit-cards-hdfc-bank",
+              "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Fuel surcharge waiver at partnered fuel stations",
+                "Cashback or reward points on fuel spends",
+                "Additional discounts or rewards with oil company partnerships",
+                "Useful for frequent personal or commercial vehicle users"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fuel surcharge waiver at partnered fuel stations",
+                    "Cashback or reward points on fuel spends",
+                    "Additional discounts or rewards with oil company partnerships",
+                    "Useful for frequent personal or commercial vehicle users"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (typically 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                },
+                {
+                  "title": "Popular Cards",
+                  "icon": "/assets/icons/cardsIcon.png",
+                  "points": [
+                    "HDFC IndianOil",
+                    "SBI BPCL Card",
+                    "ICICI HPCL Coral"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "fuel-credit-cards-icici-bank",
+              "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Fuel surcharge waiver at partnered fuel stations",
+                "Cashback or reward points on fuel spends",
+                "Additional discounts or rewards with oil company partnerships",
+                "Useful for frequent personal or commercial vehicle users"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fuel surcharge waiver at partnered fuel stations",
+                    "Cashback or reward points on fuel spends",
+                    "Additional discounts or rewards with oil company partnerships",
+                    "Useful for frequent personal or commercial vehicle users"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (typically 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                },
+                {
+                  "title": "Popular Cards",
+                  "icon": "/assets/icons/cardsIcon.png",
+                  "points": [
+                    "HDFC IndianOil",
+                    "SBI BPCL Card",
+                    "ICICI HPCL Coral"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "fuel-credit-cards-kotak-mahindra-bank",
+              "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Fuel surcharge waiver at partnered fuel stations",
+                "Cashback or reward points on fuel spends",
+                "Additional discounts or rewards with oil company partnerships",
+                "Useful for frequent personal or commercial vehicle users"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fuel surcharge waiver at partnered fuel stations",
+                    "Cashback or reward points on fuel spends",
+                    "Additional discounts or rewards with oil company partnerships",
+                    "Useful for frequent personal or commercial vehicle users"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (typically 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                },
+                {
+                  "title": "Popular Cards",
+                  "icon": "/assets/icons/cardsIcon.png",
+                  "points": [
+                    "HDFC IndianOil",
+                    "SBI BPCL Card",
+                    "ICICI HPCL Coral"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "fuel-credit-cards-sbi-bank",
+              "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Fuel surcharge waiver at partnered fuel stations",
+                "Cashback or reward points on fuel spends",
+                "Additional discounts or rewards with oil company partnerships",
+                "Useful for frequent personal or commercial vehicle users"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Fuel surcharge waiver at partnered fuel stations",
+                    "Cashback or reward points on fuel spends",
+                    "Additional discounts or rewards with oil company partnerships",
+                    "Useful for frequent personal or commercial vehicle users"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (typically 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                },
+                {
+                  "title": "Popular Cards",
+                  "icon": "/assets/icons/cardsIcon.png",
+                  "points": [
+                    "HDFC IndianOil",
+                    "SBI BPCL Card",
+                    "ICICI HPCL Coral"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "fuel-credit-cards-indusind-bank",
+              "description": "Ease your fuel costs with credit cards offering cashback, reward points, and fuel surcharge waivers at partnered stations. Best suited for personal and commercial vehicle users.",
+              "icon": "/assets/cards/indusind-bank.png",
               "features": [
                 "Fuel surcharge waiver at partnered fuel stations",
                 "Cashback or reward points on fuel spends",
@@ -2682,10 +3369,10 @@
           "icon": "/assets/cards/lifetime-card.png",
           "loans": [
             {
-              "title": "Lifetime Free Credit Cards",
-              "slug": "lifetime-free-credit-cards",
+              "title": "Axis Bank",
+              "slug": "lifetime-free-credit-cards-axis-bank",
               "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
-              "icon": "/assets/cards/lifetime-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "No joining fee or annual maintenance charges",
                 "Basic reward points, cashback, or fuel surcharge waivers",
@@ -2722,14 +3409,225 @@
                     "Address Proof: Aadhaar, Passport, Utility Bill",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "lifetime-free-credit-cards-hdfc-bank",
+              "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "No joining fee or annual maintenance charges",
+                "Basic reward points, cashback, or fuel surcharge waivers",
+                "Good for credit building without cost",
+                "Useful for low or moderate monthly spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No joining fee or annual maintenance charges",
+                    "Basic reward points, cashback, or fuel surcharge waivers",
+                    "Good for credit building without cost",
+                    "Useful for low or moderate monthly spenders"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "IDFC FIRST Classic Card",
-                    "Amazon ICICI Card (Free Variant)",
-                    "Lifetime Free SBI Card (select variants)"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Minimum income criteria as per bank policy",
+                    "Fair to good credit score"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "lifetime-free-credit-cards-icici-bank",
+              "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "No joining fee or annual maintenance charges",
+                "Basic reward points, cashback, or fuel surcharge waivers",
+                "Good for credit building without cost",
+                "Useful for low or moderate monthly spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No joining fee or annual maintenance charges",
+                    "Basic reward points, cashback, or fuel surcharge waivers",
+                    "Good for credit building without cost",
+                    "Useful for low or moderate monthly spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Minimum income criteria as per bank policy",
+                    "Fair to good credit score"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "lifetime-free-credit-cards-kotak-mahindra-bank",
+              "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "No joining fee or annual maintenance charges",
+                "Basic reward points, cashback, or fuel surcharge waivers",
+                "Good for credit building without cost",
+                "Useful for low or moderate monthly spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No joining fee or annual maintenance charges",
+                    "Basic reward points, cashback, or fuel surcharge waivers",
+                    "Good for credit building without cost",
+                    "Useful for low or moderate monthly spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Minimum income criteria as per bank policy",
+                    "Fair to good credit score"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "lifetime-free-credit-cards-sbi-bank",
+              "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "No joining fee or annual maintenance charges",
+                "Basic reward points, cashback, or fuel surcharge waivers",
+                "Good for credit building without cost",
+                "Useful for low or moderate monthly spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No joining fee or annual maintenance charges",
+                    "Basic reward points, cashback, or fuel surcharge waivers",
+                    "Good for credit building without cost",
+                    "Useful for low or moderate monthly spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Minimum income criteria as per bank policy",
+                    "Fair to good credit score"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "lifetime-free-credit-cards-indusind-bank",
+              "description": "These credit cards come with no annual or renewal fees for life, offering essential features like cashback, rewards, and utility payment benefits—ideal for first-time users or minimal spenders.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "No joining fee or annual maintenance charges",
+                "Basic reward points, cashback, or fuel surcharge waivers",
+                "Good for credit building without cost",
+                "Useful for low or moderate monthly spenders"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "No joining fee or annual maintenance charges",
+                    "Basic reward points, cashback, or fuel surcharge waivers",
+                    "Good for credit building without cost",
+                    "Useful for low or moderate monthly spenders"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Minimum income criteria as per bank policy",
+                    "Fair to good credit score"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
@@ -2743,10 +3641,10 @@
           "icon": "/assets/cards/lifestyle-card.png",
           "loans": [
             {
-              "title": "Lifestyle Credit Cards",
-              "slug": "lifestyle-credit-cards",
+              "title": "Axis Bank",
+              "slug": "lifestyle-credit-cards-axis-bank",
               "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
-              "icon": "/assets/cards/lifestyle-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "Access to airport lounges, concierge services, and lifestyle privileges",
                 "Rewards and discounts on dining, fashion, travel, and movies",
@@ -2783,14 +3681,225 @@
                     "Address Proof: Aadhaar, Passport, Utility Bill",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "lifestyle-credit-cards-hdfc-bank",
+              "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Access to airport lounges, concierge services, and lifestyle privileges",
+                "Rewards and discounts on dining, fashion, travel, and movies",
+                "Milestone benefits and annual fee waivers on high spends",
+                "Comprehensive lifestyle perks in one card"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Access to airport lounges, concierge services, and lifestyle privileges",
+                    "Rewards and discounts on dining, fashion, travel, and movies",
+                    "Milestone benefits and annual fee waivers on high spends",
+                    "Comprehensive lifestyle perks in one card"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "HDFC Regalia Gold",
-                    "ICICI Sapphiro",
-                    "Axis SELECT"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "lifestyle-credit-cards-icici-bank",
+              "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Access to airport lounges, concierge services, and lifestyle privileges",
+                "Rewards and discounts on dining, fashion, travel, and movies",
+                "Milestone benefits and annual fee waivers on high spends",
+                "Comprehensive lifestyle perks in one card"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Access to airport lounges, concierge services, and lifestyle privileges",
+                    "Rewards and discounts on dining, fashion, travel, and movies",
+                    "Milestone benefits and annual fee waivers on high spends",
+                    "Comprehensive lifestyle perks in one card"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "lifestyle-credit-cards-kotak-mahindra-bank",
+              "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Access to airport lounges, concierge services, and lifestyle privileges",
+                "Rewards and discounts on dining, fashion, travel, and movies",
+                "Milestone benefits and annual fee waivers on high spends",
+                "Comprehensive lifestyle perks in one card"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Access to airport lounges, concierge services, and lifestyle privileges",
+                    "Rewards and discounts on dining, fashion, travel, and movies",
+                    "Milestone benefits and annual fee waivers on high spends",
+                    "Comprehensive lifestyle perks in one card"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "lifestyle-credit-cards-sbi-bank",
+              "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Access to airport lounges, concierge services, and lifestyle privileges",
+                "Rewards and discounts on dining, fashion, travel, and movies",
+                "Milestone benefits and annual fee waivers on high spends",
+                "Comprehensive lifestyle perks in one card"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Access to airport lounges, concierge services, and lifestyle privileges",
+                    "Rewards and discounts on dining, fashion, travel, and movies",
+                    "Milestone benefits and annual fee waivers on high spends",
+                    "Comprehensive lifestyle perks in one card"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "lifestyle-credit-cards-indusind-bank",
+              "description": "A perfect all-rounder, lifestyle credit cards combine premium benefits across travel, dining, shopping, and entertainment—ideal for users seeking luxury, convenience, and value in one card.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "Access to airport lounges, concierge services, and lifestyle privileges",
+                "Rewards and discounts on dining, fashion, travel, and movies",
+                "Milestone benefits and annual fee waivers on high spends",
+                "Comprehensive lifestyle perks in one card"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Access to airport lounges, concierge services, and lifestyle privileges",
+                    "Rewards and discounts on dining, fashion, travel, and movies",
+                    "Milestone benefits and annual fee waivers on high spends",
+                    "Comprehensive lifestyle perks in one card"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (700+)",
+                    "Stable and verifiable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
@@ -2804,10 +3913,10 @@
           "icon": "/assets/cards/reward-card.png",
           "loans": [
             {
-              "title": "Reward Credit Cards",
-              "slug": "reward-credit-cards",
+              "title": "Axis Bank",
+              "slug": "reward-credit-cards-axis-bank",
               "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
-              "icon": "/assets/cards/reward-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "Earn reward points on every transaction",
                 "Points redeemable for gifts, travel, and vouchers",
@@ -2844,14 +3953,225 @@
                     "Address Proof: Utility bill, Aadhaar, Passport",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "reward-credit-cards-hdfc-bank",
+              "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Earn reward points on every transaction",
+                "Points redeemable for gifts, travel, and vouchers",
+                "Bonus rewards on specific spending categories",
+                "Annual fee may be waived on reaching milestone spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Earn reward points on every transaction",
+                    "Points redeemable for gifts, travel, and vouchers",
+                    "Bonus rewards on specific spending categories",
+                    "Annual fee may be waived on reaching milestone spends"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "HDFC Regalia",
-                    "Axis Magnus",
-                    "SBI Card PRIME"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "reward-credit-cards-icici-bank",
+              "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Earn reward points on every transaction",
+                "Points redeemable for gifts, travel, and vouchers",
+                "Bonus rewards on specific spending categories",
+                "Annual fee may be waived on reaching milestone spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Earn reward points on every transaction",
+                    "Points redeemable for gifts, travel, and vouchers",
+                    "Bonus rewards on specific spending categories",
+                    "Annual fee may be waived on reaching milestone spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "reward-credit-cards-kotak-mahindra-bank",
+              "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Earn reward points on every transaction",
+                "Points redeemable for gifts, travel, and vouchers",
+                "Bonus rewards on specific spending categories",
+                "Annual fee may be waived on reaching milestone spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Earn reward points on every transaction",
+                    "Points redeemable for gifts, travel, and vouchers",
+                    "Bonus rewards on specific spending categories",
+                    "Annual fee may be waived on reaching milestone spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "reward-credit-cards-sbi-bank",
+              "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Earn reward points on every transaction",
+                "Points redeemable for gifts, travel, and vouchers",
+                "Bonus rewards on specific spending categories",
+                "Annual fee may be waived on reaching milestone spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Earn reward points on every transaction",
+                    "Points redeemable for gifts, travel, and vouchers",
+                    "Bonus rewards on specific spending categories",
+                    "Annual fee may be waived on reaching milestone spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "reward-credit-cards-indusind-bank",
+              "description": "Reward credit cards are ideal for individuals who want to make the most out of their regular spending by accumulating points for future benefits.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "Earn reward points on every transaction",
+                "Points redeemable for gifts, travel, and vouchers",
+                "Bonus rewards on specific spending categories",
+                "Annual fee may be waived on reaching milestone spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Earn reward points on every transaction",
+                    "Points redeemable for gifts, travel, and vouchers",
+                    "Bonus rewards on specific spending categories",
+                    "Annual fee may be waived on reaching milestone spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Utility bill, Aadhaar, Passport",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
@@ -2865,10 +4185,10 @@
           "icon": "/assets/cards/shopping-card.png",
           "loans": [
             {
-              "title": "Shopping Credit Cards",
-              "slug": "shopping-credit-cards",
+              "title": "Axis Bank",
+              "slug": "shopping-credit-cards-axis-bank",
               "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
-              "icon": "/assets/cards/shopping-card.png",
+              "icon": "/assets/cards/axis-bank.png",
               "features": [
                 "Extra rewards or cashback on online & retail shopping",
                 "Exclusive offers and discounts on major e-commerce platforms",
@@ -2905,14 +4225,225 @@
                     "Address Proof: Aadhaar, Passport, Utility Bill",
                     "Photograph & Signature Proof (if applicable)"
                   ]
+                }
+              ]
+            },
+            {
+              "title": "HDFC Bank",
+              "slug": "shopping-credit-cards-hdfc-bank",
+              "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
+              "icon": "/assets/cards/hdfc-bank.png",
+              "features": [
+                "Extra rewards or cashback on online & retail shopping",
+                "Exclusive offers and discounts on major e-commerce platforms",
+                "No-cost EMI options and partner brand benefits",
+                "Milestone rewards and welcome bonuses on shopping spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra rewards or cashback on online & retail shopping",
+                    "Exclusive offers and discounts on major e-commerce platforms",
+                    "No-cost EMI options and partner brand benefits",
+                    "Milestone rewards and welcome bonuses on shopping spends"
+                  ]
                 },
                 {
-                  "title": "Popular Cards",
-                  "icon": "/assets/icons/cardsIcon.png",
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
                   "points": [
-                    "Amazon ICICI Card",
-                    "Flipkart Axis Card",
-                    "HDFC MoneyBack+"
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and consistent monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "ICICI Bank",
+              "slug": "shopping-credit-cards-icici-bank",
+              "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
+              "icon": "/assets/cards/icici-bank.png",
+              "features": [
+                "Extra rewards or cashback on online & retail shopping",
+                "Exclusive offers and discounts on major e-commerce platforms",
+                "No-cost EMI options and partner brand benefits",
+                "Milestone rewards and welcome bonuses on shopping spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra rewards or cashback on online & retail shopping",
+                    "Exclusive offers and discounts on major e-commerce platforms",
+                    "No-cost EMI options and partner brand benefits",
+                    "Milestone rewards and welcome bonuses on shopping spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and consistent monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Kotak Mahindra Bank",
+              "slug": "shopping-credit-cards-kotak-mahindra-bank",
+              "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
+              "icon": "/assets/cards/ktb.png",
+              "features": [
+                "Extra rewards or cashback on online & retail shopping",
+                "Exclusive offers and discounts on major e-commerce platforms",
+                "No-cost EMI options and partner brand benefits",
+                "Milestone rewards and welcome bonuses on shopping spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra rewards or cashback on online & retail shopping",
+                    "Exclusive offers and discounts on major e-commerce platforms",
+                    "No-cost EMI options and partner brand benefits",
+                    "Milestone rewards and welcome bonuses on shopping spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and consistent monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "SBI Bank",
+              "slug": "shopping-credit-cards-sbi-bank",
+              "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
+              "icon": "/assets/cards/sbi.png",
+              "features": [
+                "Extra rewards or cashback on online & retail shopping",
+                "Exclusive offers and discounts on major e-commerce platforms",
+                "No-cost EMI options and partner brand benefits",
+                "Milestone rewards and welcome bonuses on shopping spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra rewards or cashback on online & retail shopping",
+                    "Exclusive offers and discounts on major e-commerce platforms",
+                    "No-cost EMI options and partner brand benefits",
+                    "Milestone rewards and welcome bonuses on shopping spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and consistent monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "IndusInd Bank",
+              "slug": "shopping-credit-cards-indusind-bank",
+              "description": "Maximize your shopping experience with reward points, exclusive discounts, and partner offers across top e-commerce platforms. Ideal for digital-first and frequent shoppers.",
+              "icon": "/assets/cards/indusind-bank.png",
+              "features": [
+                "Extra rewards or cashback on online & retail shopping",
+                "Exclusive offers and discounts on major e-commerce platforms",
+                "No-cost EMI options and partner brand benefits",
+                "Milestone rewards and welcome bonuses on shopping spends"
+              ],
+              "sections": [
+                {
+                  "title": "Key Highlights",
+                  "icon": "/assets/icons/key-highlights.png",
+                  "points": [
+                    "Extra rewards or cashback on online & retail shopping",
+                    "Exclusive offers and discounts on major e-commerce platforms",
+                    "No-cost EMI options and partner brand benefits",
+                    "Milestone rewards and welcome bonuses on shopping spends"
+                  ]
+                },
+                {
+                  "title": "Eligibility",
+                  "icon": "/assets/icons/eligibility.png",
+                  "points": [
+                    "Salaried or self-employed individuals",
+                    "Age: 21–60 years",
+                    "Good credit score (usually 700+)",
+                    "Stable and consistent monthly income"
+                  ]
+                },
+                {
+                  "title": "Documents Required",
+                  "icon": "/assets/icons/onboarding.png",
+                  "points": [
+                    "KYC Documents: Aadhaar, PAN",
+                    "Income Proof: Salary slips / Bank statements / ITRs",
+                    "Address Proof: Aadhaar, Passport, Utility Bill",
+                    "Photograph & Signature Proof (if applicable)"
                   ]
                 }
               ]
